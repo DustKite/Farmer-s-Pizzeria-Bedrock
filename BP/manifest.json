@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "11a638f4-2ce5-499c-ab00-dcef7a681bbd",
+    "version": [
+      5,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3cbd88b6-486e-4c8c-b58b-4e33ca8cfcb1",
+      "version": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "Farmer's Pizzeria-Script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "701fbd9a-73f1-4dab-a8c2-90391892118d",
+      "version": [
+        5,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite/Elaikes"
+    ],
+    "license": "ARR",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "4e4c64be-c677-485b-9354-e3232b163a9a",
+      "version": [
+        5,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}
