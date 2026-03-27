@@ -1,0 +1,32 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 1,
+                "saturation_modifier": 1.0
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "basil_leaves"
+                }
+            },
+            "minecraft:compostable": {
+                "composting_chance": 65
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 0.8,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:basil_leaves",
+            "menu_category": {
+                "category": "nature",
+                "group": "farmersdelight:itemGroup.name.crop"
+            }
+        }
+    }
+}

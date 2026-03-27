@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "farmerspizzeria:basil",
+                "use_on": [
+                    "minecraft:farmland",
+                    "farmersdelight:rich_soil_farmland"
+                ],
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "basil"
+                }
+            },
+            "farmersdelight:seed": "farmerspizzeria:basil",
+            "minecraft:compostable": {
+                "composting_chance": 35
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:basil",
+            "menu_category": {
+                "category": "nature",
+                "group": "farmersdelight:itemGroup.name.seed"
+            }
+        }
+    }
+}

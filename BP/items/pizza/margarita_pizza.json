@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:margarita_pizza",
+        "replace_block_item": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "margarita_pizza"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:margarita_pizza",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.pizza"
+      }
+    }
+  }
+}

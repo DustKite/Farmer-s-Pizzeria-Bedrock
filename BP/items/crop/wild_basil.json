@@ -1,0 +1,23 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "farmerspizzeria:wild_basil",
+                "replace_block_item": true
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "wild_basil"
+                }
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:wild_basil",
+            "menu_category": {
+                "category": "nature",
+                "group": "farmersdelight:itemGroup.name.wildcrop"
+            }
+        }
+    }
+}
