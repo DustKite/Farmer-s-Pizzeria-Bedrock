@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:dough_tomatoes",
+        "replace_block_item": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "dough_tomatoes"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:dough_tomatoes",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.dough"
+      }
+    }
+  }
+}

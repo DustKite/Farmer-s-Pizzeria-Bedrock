@@ -1,0 +1,36 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 4,
+        "saturation_modifier": 1.0
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:tags": {
+        "tags": [
+          "brewinandchewin:cheese_wedges",
+          "farmersdelight:cheese_slices",
+          "farmersdelight:cheese"
+        ]
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "dorblu_cheese_wedge"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:dorblu_cheese_wedge",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

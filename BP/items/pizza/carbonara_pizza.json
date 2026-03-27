@@ -1,0 +1,24 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:carbonara_pizza",
+        "replace_block_item": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "carbonara_pizza"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:carbonara_pizza",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.pizza"
+      }
+    }
+  }
+}

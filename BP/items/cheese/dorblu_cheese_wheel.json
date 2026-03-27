@@ -1,0 +1,24 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:max_stack_size": 16,
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:dorblu_cheese_wheel",
+        "replace_block_item": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "dorblu_cheese_wheel"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:dorblu_cheese_wheel",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

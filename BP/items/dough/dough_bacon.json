@@ -1,0 +1,23 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:dough_bacon",
+        "replace_block_item": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "dough_bacon"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:dough_bacon",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.dough"
+      }
+    }
+  }
+}
