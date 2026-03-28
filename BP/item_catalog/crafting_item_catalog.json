@@ -1,0 +1,35 @@
+{
+   "format_version": "1.21.90",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+         {
+            "category_name": "equipment",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "farmerspizzeria:raw_margarita_pizza",
+                     "name": "farmerspizzeria:itemGroup.name.dough"
+                  },
+                  "items": [
+                     "farmerspizzeria:dough_tomato_sauce",
+                     "farmerspizzeria:dough_cheese",
+                     "farmerspizzeria:dough_tomatoes",
+                     "farmerspizzeria:dough_mushrooms",
+                     "farmerspizzeria:dough_tomatoes_mushrooms",
+                     "farmerspizzeria:dough_two_cheeses",
+                     "farmerspizzeria:dough_two_cheeses_2",
+                     "farmerspizzeria:dough_bacon",
+                     "farmerspizzeria:dough_bacon_pepperoni",
+                     "farmerspizzeria:raw_margarita_pizza",
+                     "farmerspizzeria:raw_cheese_pizza",
+                     "farmerspizzeria:raw_funghi",
+                     "farmerspizzeria:raw_carbonara_pizza",
+                     "farmerspizzeria:raw_meat_feast_pizza",
+                     "farmerspizzeria:raw_pepperoni"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

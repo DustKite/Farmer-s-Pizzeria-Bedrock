@@ -14,7 +14,7 @@
       },
       "minecraft:icon": {
         "textures": {
-          "default": "farmerspizzeria:meat_feast_pizza_slice"
+          "default": "meat_feast_pizza_slice"
         }
       }
     },
@@ -22,7 +22,7 @@
       "identifier": "farmerspizzeria:meat_feast_pizza_slice",
       "menu_category": {
         "category": "equipment",
-        "group": "farmerspizzeria:itemGroup.name.pizza"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

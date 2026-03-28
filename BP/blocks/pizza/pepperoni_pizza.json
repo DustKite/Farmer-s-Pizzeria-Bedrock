@@ -1,0 +1,164 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "farmerspizzeria:pepperoni_pizza",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "farmerspizzeria:pizza_stage": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmerspizzeria:pizza_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.pizza"
+                }
+            },
+            {
+                "condition": "query.block_state('farmerspizzeria:pizza_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.pizza_slice1",
+                    "minecraft:loot": "loot_tables/empty.json"
+                }
+            },
+            {
+                "condition": "query.block_state('farmerspizzeria:pizza_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.pizza_slice2",
+                    "minecraft:loot": "loot_tables/empty.json"
+                }
+            },
+            {
+                "condition": "query.block_state('farmerspizzeria:pizza_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.pizza_slice3",
+                    "minecraft:loot": "loot_tables/empty.json"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "farmerspizzeria:pizza": {},
+            "minecraft:geometry": "geometry.pizza",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('farmersdelight:is_knife')"
+                        },
+                        "destroy_speed": 0.5
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8.0,
+                    0.0,
+                    -8.0
+                ],
+                "size": [
+                    16.0,
+                    1.0,
+                    16.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8.0,
+                    0.0,
+                    -8.0
+                ],
+                "size": [
+                    16.0,
+                    1.0,
+                    16.0
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "pepperoni_top"
+                },
+                "inner": {
+                    "texture": "pizza_inside"
+                },
+                "side": {
+                    "texture": "pizza_side"
+                },
+                "down": {
+                    "texture": "pizza_bottom"
+                }
+            }
+        }
+    }
+}

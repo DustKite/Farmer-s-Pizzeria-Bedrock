@@ -1,0 +1,26 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:raw_cheese_pizza",
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "%item.farmerspizzeria.raw_cheese_pizza\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato_sauce\n%item.brewinandchewin.flaxen_cheese_wedge\n%item.brewinandchewin.scarlet_cheese_wedge\n%item.farmerspizzeria.dorblu_cheese_wedge"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "raw_cheese_pizza"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:raw_cheese_pizza",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.dough"
+      }
+    }
+  }
+}

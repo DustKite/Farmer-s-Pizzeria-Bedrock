@@ -1,0 +1,127 @@
+{
+  "texture_data": {
+    "basil_0": {
+      "textures": "textures/blocks/basil_0"
+    },
+    "basil_1": {
+      "textures": "textures/blocks/basil_1"
+    },
+    "basil_2": {
+      "textures": "textures/blocks/basil_2"
+    },
+    "basil_3": {
+      "textures": "textures/blocks/basil_3"
+    },
+    "carbonara_pizza_top": {
+      "textures": "textures/blocks/carbonara_pizza_top"
+    },
+    "cheese_pizza_top": {
+      "textures": "textures/blocks/cheese_pizza_top"
+    },
+    "dorblu_cheese_wedge": {
+      "textures": "textures/blocks/dorblu_cheese_wedge"
+    },
+    "dorblu_cheese_wheel_bottom": {
+      "textures": "textures/blocks/dorblu_cheese_wheel_bottom"
+    },
+    "dorblu_cheese_wheel_inside": {
+      "textures": "textures/blocks/dorblu_cheese_wheel_inside"
+    },
+    "dorblu_cheese_wheel_side": {
+      "textures": "textures/blocks/dorblu_cheese_wheel_side"
+    },
+    "dorblu_cheese_wheel_top": {
+      "textures": "textures/blocks/dorblu_cheese_wheel_top"
+    },
+    "dough": {
+      "textures": "textures/blocks/dough"
+    },
+    "dough_1": {
+      "textures": "textures/blocks/dough_1"
+    },
+    "dough_2": {
+      "textures": "textures/blocks/dough_2"
+    },
+    "dough_bacon": {
+      "textures": "textures/blocks/dough_bacon"
+    },
+    "dough_bacon_pepperoni": {
+      "textures": "textures/blocks/dough_bacon_pepperoni"
+    },
+    "dough_cheese": {
+      "textures": "textures/blocks/dough_cheese"
+    },
+    "dough_mushrooms": {
+      "textures": "textures/blocks/dough_mushrooms"
+    },
+    "raw_pepperoni_pizza": {
+      "textures": "textures/blocks/raw_pepperoni_pizza"
+    },
+    "dough_tomatoes": {
+      "textures": "textures/blocks/dough_tomatoes"
+    },
+    "dough_tomatoes_mushrooms": {
+      "textures": "textures/blocks/dough_tomatoes_mushrooms"
+    },
+    "dough_tomato_sauce": {
+      "textures": "textures/blocks/dough_tomato_sauce"
+    },
+    "dough_two_cheeses": {
+      "textures": "textures/blocks/dough_two_cheeses"
+    },
+    "dough_two_cheeses2": {
+      "textures": "textures/blocks/dough_two_cheeses2"
+    },
+    "margarita_pizza_top": {
+      "textures": "textures/blocks/margarita_pizza_top"
+    },
+    "meat_feast_pizza_top": {
+      "textures": "textures/blocks/meat_feast_pizza_top"
+    },
+    "pepperoni_pizza_top": {
+      "textures": "textures/blocks/pepperoni_pizza_top"
+    },
+    "pizza_bottom": {
+      "textures": "textures/blocks/pizza_bottom"
+    },
+    "pizza_inside": {
+      "textures": "textures/blocks/pizza_inside"
+    },
+    "pizza_side": {
+      "textures": "textures/blocks/pizza_side"
+    },
+    "raw_carbonara_pizza": {
+      "textures": "textures/blocks/raw_carbonara_pizza"
+    },
+    "raw_cheese_pizza": {
+      "textures": "textures/blocks/raw_cheese_pizza"
+    },
+    "raw_funghi_pizza": {
+      "textures": "textures/blocks/raw_funghi_pizza"
+    },
+    "raw_margarita_pizza": {
+      "textures": "textures/blocks/raw_margarita_pizza"
+    },
+    "raw_meat_feast_pizza": {
+      "textures": "textures/blocks/raw_meat_feast_pizza"
+    },
+    "semiripe_dorblu_cheese_wheel_bottom": {
+      "textures": "textures/blocks/semiripe_dorblu_cheese_wheel_bottom"
+    },
+    "semiripe_dorblu_cheese_wheel_side": {
+      "textures": "textures/blocks/semiripe_dorblu_cheese_wheel_side"
+    },
+    "semiripe_dorblu_cheese_wheel_top": {
+      "textures": "textures/blocks/semiripe_dorblu_cheese_wheel_top"
+    },
+    "unripe_dorblu_cheese_wheel_bottom": {
+      "textures": "textures/blocks/unripe_dorblu_cheese_wheel_bottom"
+    },
+    "unripe_dorblu_cheese_wheel_side": {
+      "textures": "textures/blocks/unripe_dorblu_cheese_wheel_side"
+    },
+    "unripe_dorblu_cheese_wheel_top": {
+      "textures": "textures/blocks/unripe_dorblu_cheese_wheel_top"
+    }
+  }
+}

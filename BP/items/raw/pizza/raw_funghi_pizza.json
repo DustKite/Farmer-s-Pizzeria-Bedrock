@@ -1,0 +1,26 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:raw_funghi_pizza",
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "%item.farmerspizzeria.raw_funghi_pizza\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato\n%tile.brown_mushroom.name\n%item.farmerspizzeria.basil_leaves"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "raw_funghi_pizza"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:raw_funghi_pizza",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.dough"
+      }
+    }
+  }
+}

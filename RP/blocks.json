@@ -1,0 +1,85 @@
+{
+    "farmerspizzeria:dough": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_tomato_sauce": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_cheese": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_tomatoes": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_mushrooms": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_tomatoes_mushrooms": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_two_cheeses": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_two_cheeses_2": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_bacon": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_bacon_pepperoni": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_margarita_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_cheese_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_funghi_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_carbonara_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_meat_feast_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_pepperoni_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:margarita_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:cheese_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:carbonara_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:meat_feast_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:pepperoni_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:basil": {
+        "sound": "grass"
+    },
+    "farmerspizzeria:wild_basil": {
+        "sound": "grass"
+    },
+    "farmerspizzeria:dorblu_cheese_wheel": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:unripe_dorblu_cheese_wheel": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dorblu_cheese": {
+        "sound": "cloth"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}

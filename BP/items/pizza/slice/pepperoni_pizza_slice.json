@@ -14,7 +14,7 @@
       },
       "minecraft:icon": {
         "textures": {
-          "default": "farmerspizzeria:pepperoni_pizza_slice"
+          "default": "pepperoni_pizza_slice"
         }
       }
     },
@@ -22,7 +22,7 @@
       "identifier": "farmerspizzeria:pepperoni_pizza_slice",
       "menu_category": {
         "category": "equipment",
-        "group": "farmerspizzeria:itemGroup.name.pizza"
+        "group": "farmersdelight:itemGroup.name.miscFood"
       }
     }
   }

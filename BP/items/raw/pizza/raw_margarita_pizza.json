@@ -1,0 +1,26 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "farmerspizzeria:raw_margarita_pizza",
+        "replace_block_item": true
+      },
+      "minecraft:display_name": {
+        "value": "%item.farmerspizzeria.raw_margarita_pizza\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato\n%item.farmerspizzeria.basil_leaves"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "raw_margarita_pizza"
+        }
+      }
+    },
+    "description": {
+      "identifier": "farmerspizzeria:raw_margarita_pizza",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmerspizzeria:itemGroup.name.dough"
+      }
+    }
+  }
+}

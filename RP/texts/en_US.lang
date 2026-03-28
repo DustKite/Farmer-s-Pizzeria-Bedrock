@@ -1,2 +1,57 @@
 pack.name=Farmer's Pizzeria
 pack.description=Compatible with version 1.26.0+. This mod is a port of the original Java Edition mod Farmer's Pizzeria, adapted with authorization from the original author.
+
+farmerspizzeria.dough=Dough
+farmerspizzeria.dough.description=Contents: 
+item.farmersdelight.tomato_sauce=Tomato Sauce
+item.farmersdelight.tomato=Tomato
+item.brewinandchewin.flaxen_cheese_wedge=Flaxen Cheese Wedge
+item.brewinandchewin.scarlet_cheese_wedge=Scarlet Cheese Wedge
+item.farmerspizzeria.dorblu_cheese_wedge=Dorblu Cheese Wedge
+item.farmersdelight.bacon=Bacon
+item.farmersdelight.ham=Ham
+item.farmerspizzeria.salami=Salami
+item.farmerspizzeria.basil_leaves=Basil Leaves
+item.farmerspizzeria.raw_carbonara_pizza=Raw Carbonara Pizza
+item.farmerspizzeria.raw_meat_feast_pizza=Raw Meat Feast Pizza
+item.farmerspizzeria.raw_pepperoni_pizza=Raw Pepperoni Pizza
+item.farmerspizzeria.raw_cheese_pizza=Raw Cheese Pizza
+item.farmerspizzeria.raw_margarita_pizza=Raw Margherita Pizza
+item.farmerspizzeria.raw_funghi_pizza=Raw Funghi Pizza
+
+item.farmerspizzeria:basil_seeds=Basil Seeds
+item.farmerspizzeria:basil_leaves=Basil Leaves
+item.farmerspizzeria:wild_basil=Wild Basil
+tile.farmerspizzeria:basil.name=Basil
+
+item.farmerspizzeria:dorblu_cheese_wedge=Dorblu Cheese Wedge
+item.farmerspizzeria:unripe_dorblu_cheese_wheel=Unripe Dorblu Cheese Wheel
+item.farmerspizzeria:dorblu_cheese_wheel=Dorblu Cheese Wheel
+
+item.farmerspizzeria:raw_carbonara_pizza=Raw Carbonara Pizza
+item.farmerspizzeria:carbonara_pizza=Carbonara Pizza
+item.farmerspizzeria:carbonara_pizza_slice=Carbonara Pizza Slice
+
+item.farmerspizzeria:raw_meat_feast_pizza=Raw Meat Feast Pizza
+item.farmerspizzeria:meat_feast_pizza=Meat Feast Pizza
+item.farmerspizzeria:meat_feast_pizza_slice=Meat Feast Pizza Slice
+
+item.farmerspizzeria:raw_pepperoni_pizza=Raw Pepperoni Pizza
+item.farmerspizzeria:pepperoni_pizza=Pepperoni Pizza
+item.farmerspizzeria:pepperoni_pizza_slice=Pepperoni Pizza Slice
+
+item.farmerspizzeria:raw_cheese_pizza=Raw Cheese Pizza
+item.farmerspizzeria:cheese_pizza=Cheese Pizza
+item.farmerspizzeria:cheese_pizza_slice=Cheese Pizza Slice
+
+item.farmerspizzeria:raw_margarita_pizza=Raw Margherita Pizza
+item.farmerspizzeria:margarita_pizza=Margherita Pizza
+item.farmerspizzeria:margarita_pizza_slice=Margherita Pizza Slice
+
+item.farmerspizzeria:raw_funghi_pizza=Raw Funghi Pizza
+item.farmerspizzeria:salami=Salami
+item.farmerspizzeria:rolling_pin=Rolling Pin
+
+farmerspizzeria.blockfood.is_knife=You need a knife to cut it!
+
+farmerspizzeria:itemGroup.name.dough=Farmer's Pizzeria-Dough

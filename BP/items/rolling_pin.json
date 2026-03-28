@@ -7,6 +7,12 @@
         "textures": {
           "default": "rolling_pin"
         }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "farmerdelight:is_rolling_pin"
+        ]
       }
     },
     "description": {
