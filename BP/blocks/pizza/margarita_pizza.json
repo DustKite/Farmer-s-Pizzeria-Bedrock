@@ -147,7 +147,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "margarita_top"
+                    "texture": "margarita_pizza_top"
                 },
                 "inner": {
                     "texture": "pizza_inside"

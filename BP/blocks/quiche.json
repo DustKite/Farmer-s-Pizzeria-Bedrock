@@ -1,0 +1,164 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:block": {
+        "description": {
+            "identifier": "brewinandchewin:quiche",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "brewinandchewin:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.pie"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.pie_slice1",
+                    "minecraft:loot": "loot_tables/empty.json"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.pie_slice2",
+                    "minecraft:loot": "loot_tables/empty.json"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.pie_slice3",
+                    "minecraft:loot": "loot_tables/empty.json"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:geometry": "geometry.pie",
+            "farmersdelight:interact": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('farmersdelight:is_knife')"
+                        },
+                        "destroy_speed": 0.5
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    4.0,
+                    12.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    4.0,
+                    12.0
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "brewinandchewin:quiche_top"
+                },
+                "inner": {
+                    "texture": "brewinandchewin:quiche_inner"
+                },
+                "side": {
+                    "texture": "pie_side"
+                },
+                "top": {
+                    "texture": "brewinandchewin:quiche_top"
+                },
+                "bottom": {
+                    "texture": "pie_bottom"
+                }
+            }
+        }
+    }
+}

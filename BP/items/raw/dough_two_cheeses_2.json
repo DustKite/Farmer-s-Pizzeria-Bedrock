@@ -1,26 +1,26 @@
 {
-  "format_version": "1.26.0",
-  "minecraft:item": {
-    "components": {
-      "minecraft:block_placer": {
-        "block": "farmerspizzeria:dough_two_cheeses_2",
-        "replace_block_item": true
-      },
-      "minecraft:display_name": {
-        "value": "%farmerspizzeria.dough\n%farmerspizzeria.dough.description\n%item.brewinandchewin.flaxen_cheese_wedge\n%item.farmerspizzeria.dorblu_cheese_wedge"
-      },
-      "minecraft:icon": {
-        "textures": {
-          "default": "dough_two_cheeses_2"
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "farmerspizzeria:dough_two_cheeses_2",
+                "replace_block_item": true
+            },
+            "minecraft:display_name": {
+                "value": "%farmerspizzeria.dough\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato_sauce\n%item.brewinandchewin.flaxen_cheese_wedge\n%item.farmerspizzeria.dorblu_cheese_wedge"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "dough_two_cheeses_2"
+                }
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:dough_two_cheeses_2",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmerspizzeria:itemGroup.name.dough"
+            }
         }
-      }
-    },
-    "description": {
-      "identifier": "farmerspizzeria:dough_two_cheeses_2",
-      "menu_category": {
-        "category": "equipment",
-        "group": "farmerspizzeria:itemGroup.name.dough"
-      }
     }
-  }
 }

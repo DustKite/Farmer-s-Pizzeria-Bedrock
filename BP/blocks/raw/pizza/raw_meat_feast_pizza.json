@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "farmerspizzeria:raw_pepperoni_pizza",
+            "identifier": "farmerspizzeria:raw_meat_feast_pizza",
             "menu_category": {
                 "category": "none"
             },
@@ -69,6 +69,7 @@
             "minecraft:connection_rule": {
                 "accepts_connections_from": "none"
             },
+            "farmerspizzeria:dough": {},
             "minecraft:geometry": "geometry.dough_2",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.333
@@ -103,7 +104,7 @@
             "minecraft:light_dampening": 0,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "raw_pepperoni_pizza"
+                    "texture": "raw_meat_feast_pizza"
                 }
             }
         }

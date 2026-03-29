@@ -147,7 +147,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "meat_feast_top"
+                    "texture": "meat_feast_pizza_top"
                 },
                 "inner": {
                     "texture": "pizza_inside"

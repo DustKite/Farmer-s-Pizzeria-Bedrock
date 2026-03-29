@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "farmerspizzeria:dorblu_cheese_wheel"
+    },
+    "key": {
+      "p": {
+        "item": "farmerspizzeria:dorblu_cheese_wedge"
+      }
+    },
+    "pattern": [
+      "pp",
+      "pp"
+    ],
+    "result": {
+      "item": "farmerspizzeria:dorblu_cheese_wheel"
+    },
+    "tags": [
+      "crafting_table"
+    ]
+  }
+}

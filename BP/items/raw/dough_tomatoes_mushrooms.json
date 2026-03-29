@@ -1,26 +1,26 @@
 {
-  "format_version": "1.26.0",
-  "minecraft:item": {
-    "components": {
-      "minecraft:block_placer": {
-        "block": "farmerspizzeria:dough_tomatoes_mushrooms",
-        "replace_block_item": true
-      },
-      "minecraft:display_name": {
-        "value": "%farmerspizzeria.dough\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato\n%tile.brown_mushroom.name"
-      },
-      "minecraft:icon": {
-        "textures": {
-          "default": "dough_tomatoes_mushrooms"
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "farmerspizzeria:dough_tomatoes_mushrooms",
+                "replace_block_item": true
+            },
+            "minecraft:display_name": {
+                "value": "%farmerspizzeria.dough\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato_sauce\n%item.brewinandchewin.flaxen_cheese_wedge\n%item.farmersdelight.tomato\n%tile.brown_mushroom.name"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "dough_tomatoes_mushrooms"
+                }
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:dough_tomatoes_mushrooms",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmerspizzeria:itemGroup.name.dough"
+            }
         }
-      }
-    },
-    "description": {
-      "identifier": "farmerspizzeria:dough_tomatoes_mushrooms",
-      "menu_category": {
-        "category": "equipment",
-        "group": "farmerspizzeria:itemGroup.name.dough"
-      }
     }
-  }
 }

@@ -147,7 +147,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "pepperoni_top"
+                    "texture": "pepperoni_pizza_top"
                 },
                 "inner": {
                     "texture": "pizza_inside"

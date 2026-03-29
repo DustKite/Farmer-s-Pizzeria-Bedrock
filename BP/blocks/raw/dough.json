@@ -157,6 +157,7 @@
             "minecraft:connection_rule": {
                 "accepts_connections_from": "none"
             },
+            "farmerspizzeria:dough": {},
             "minecraft:geometry": "geometry.dough",
             "minecraft:loot": "loot_tables/farmerspizzeria/dough.json",
             "minecraft:destructible_by_mining": {

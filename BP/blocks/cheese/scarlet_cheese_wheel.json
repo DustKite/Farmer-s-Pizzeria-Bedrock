@@ -1,0 +1,160 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:block": {
+        "description": {
+            "identifier": "brewinandchewin:scarlet_cheese_wheel",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "brewinandchewin:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.cheese_wheel_template"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 1",
+                "components": {
+                    "minecraft:loot": "loot_tables/empty.json",
+                    "minecraft:geometry": "geometry.cheese_wheel_template1"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 2",
+                "components": {
+                    "minecraft:loot": "loot_tables/empty.json",
+                    "minecraft:geometry": "geometry.cheese_wheel_template2"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 3",
+                "components": {
+                    "minecraft:loot": "loot_tables/empty.json",
+                    "minecraft:geometry": "geometry.cheese_wheel_template3"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_side"
+                },
+                "up": {
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_top"
+                },
+                "down": {
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_bottom"
+                },
+                "inside": {
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_inside"
+                }
+            },
+            "farmersdelight:interact":{},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5,
+                "item_specific_speeds": [
+                    {
+                        "destroy_speed": 13,
+                        "item": {
+                            "tags": "q.any_tag('farmersdelight:is_knife')"
+                        }
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    6.0,
+                    12.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.0,
+                    0.0,
+                    -6.0
+                ],
+                "size": [
+                    12.0,
+                    6.0,
+                    12.0
+                ]
+            },
+            "minecraft:geometry": "geometry.cheese_wheel_template"
+        }
+    }
+}

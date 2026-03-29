@@ -1,4 +1,10 @@
 import { DorbluCheese } from "./blocks/Cheese";
 import { Pizza } from "./blocks/Pizza";
+import { Dough } from "./blocks/Dough";
+import { KegEntity } from "./blocks/keg/entity";
+import { Keg } from "./blocks/keg/block";
 new DorbluCheese();
 new Pizza();
+new Dough();
+new KegEntity();
+new Keg();

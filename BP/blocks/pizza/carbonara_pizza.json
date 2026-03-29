@@ -147,7 +147,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "carbonara_top"
+                    "texture": "carbonara_pizza_top"
                 },
                 "inner": {
                     "texture": "pizza_inside"

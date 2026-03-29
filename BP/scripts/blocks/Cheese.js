@@ -49,6 +49,7 @@ export class DorbluCheese {
             const { x, y, z } = block.location;
             const stage = block.permutation.getState("farmerspizzeria:cheese_stage");
             block.dimension.spawnItem(new ItemStack("farmerspizzeria:dorblu_cheese_wedge"), block.location);
+            player.playSound("use.cloth");
             if (stage !== 3) {
                 block.setPermutation(block.permutation.withState("farmerspizzeria:cheese_stage", stage + 1));
                 if (player?.getGameMode() != GameMode.Creative) {

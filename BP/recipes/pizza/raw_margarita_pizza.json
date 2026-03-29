@@ -1,0 +1,13 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "farmerspizzeria:raw_margarita_pizza"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": "farmerspizzeria:raw_margarita_pizza",
+        "output": "farmerspizzeria:margarita_pizza"
+    }
+}

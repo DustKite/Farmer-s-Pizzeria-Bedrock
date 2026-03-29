@@ -69,8 +69,8 @@
     "dough_two_cheeses": {
       "textures": "textures/blocks/dough_two_cheeses"
     },
-    "dough_two_cheeses2": {
-      "textures": "textures/blocks/dough_two_cheeses2"
+    "dough_two_cheeses_2": {
+      "textures": "textures/blocks/dough_two_cheeses_2"
     },
     "margarita_pizza_top": {
       "textures": "textures/blocks/margarita_pizza_top"

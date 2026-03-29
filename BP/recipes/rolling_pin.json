@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "farmerspizzeria:rolling_pin"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  a",
+            " b ",
+            "a  "
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:stick"
+            },
+            "b": {
+                "tag": "minecraft:planks"
+            }
+        },
+        "result": {
+            "item": "farmerspizzeria:rolling_pin"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "brewinandchewin:ice_crate",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "brewinandchewin:ice_crate_side"
+                },
+                "up": {
+                    "texture": "brewinandchewin:ice_crate_top"
+                },
+                "down": {
+                    "texture": "crate_bottom"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+			"minecraft:geometry": "minecraft:geometry.full_block",
+            "tag:wood":{},
+            "tag:brewinandchewin:freeze_sources": {}
+			
+		}
+	}
+}

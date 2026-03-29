@@ -11,6 +11,7 @@
                      "name": "farmerspizzeria:itemGroup.name.dough"
                   },
                   "items": [
+                     "farmerspizzeria:rolling_pin",
                      "farmerspizzeria:dough_tomato_sauce",
                      "farmerspizzeria:dough_cheese",
                      "farmerspizzeria:dough_tomatoes",
@@ -22,10 +23,10 @@
                      "farmerspizzeria:dough_bacon_pepperoni",
                      "farmerspizzeria:raw_margarita_pizza",
                      "farmerspizzeria:raw_cheese_pizza",
-                     "farmerspizzeria:raw_funghi",
+                     "farmerspizzeria:raw_funghi_pizza",
                      "farmerspizzeria:raw_carbonara_pizza",
                      "farmerspizzeria:raw_meat_feast_pizza",
-                     "farmerspizzeria:raw_pepperoni"
+                     "farmerspizzeria:raw_pepperoni_pizza"
                   ]
                }
             ]

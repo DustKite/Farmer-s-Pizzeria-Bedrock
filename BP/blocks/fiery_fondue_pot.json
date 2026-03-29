@@ -1,0 +1,171 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:block": {
+        "description": {
+            "identifier": "brewinandchewin:fiery_fondue_pot",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "brewinandchewin:food_block_stage": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.fiery_fondue_pot_filled"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.fiery_fondue_pot_level2"
+                }
+            },
+            {
+                "condition": "query.block_state('brewinandchewin:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.fiery_fondue_pot_level1"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:geometry": "geometry.fiery_fondue_pot_filled",
+            "farmersdelight:interact": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+                        },
+                        "destroy_speed": 0.9
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+                        },
+                        "destroy_speed": 0.75
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+                        },
+                        "destroy_speed": 0.6
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+                        },
+                        "destroy_speed": 0.5
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+                        },
+                        "destroy_speed": 0.4
+                    },
+                    {
+                        "item": {
+                            "tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+                        },
+                        "destroy_speed": 0.3
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 12
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "brewinandchewin:fiery_fondue_pot_sauce"
+                },
+                "cauldron_side": {
+                    "texture": "cauldron_side"
+                },
+                "cauldron_top": {
+                    "texture": "cauldron_top"
+                },
+                "cauldron_inner": {
+                    "texture": "cauldron_inner"
+                },
+                "cauldron_bottom": {
+                    "texture": "cauldron_bottom"
+                },
+                "fiery_fondue_pot_contents": {
+                    "texture": "brewinandchewin:fiery_fondue_pot_contents"
+                },
+                "fiery_fondue_pot_spoon": {
+                    "texture": "brewinandchewin:fiery_fondue_pot_spoon"
+                },
+                "fiery_fondue_pot_sauce": {
+                    "texture": "brewinandchewin:fiery_fondue_pot_sauce"
+                }
+            },
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:loot": "loot_tables/brewinandchewin/blocks/fiery_fondue_pot.json"
+        }
+    }
+}

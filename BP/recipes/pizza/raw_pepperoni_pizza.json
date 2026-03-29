@@ -1,0 +1,13 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "farmerspizzeria:raw_pepperoni_pizza"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": "farmerspizzeria:raw_pepperoni_pizza",
+        "output": "farmerspizzeria:pepperoni_pizza"
+    }
+}

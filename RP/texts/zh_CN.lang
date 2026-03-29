@@ -8,7 +8,7 @@ item.farmersdelight.tomato=番茄
 item.brewinandchewin.flaxen_cheese_wedge=淡黄奶酪块
 item.brewinandchewin.scarlet_cheese_wedge=绯红奶酪块
 item.farmerspizzeria.dorblu_cheese_wedge=蓝纹奶酪
-item.farmersdelight.bacon=培根
+item.farmersdelight.bacon=生培根
 item.farmersdelight.ham=火腿
 item.farmerspizzeria.salami=萨拉米香肠
 item.farmerspizzeria.basil_leaves=罗勒叶
@@ -55,3 +55,5 @@ item.farmerspizzeria:rolling_pin=擀面杖
 farmerspizzeria.blockfood.is_knife=你需要一个刀来切它！
 
 farmerspizzeria:itemGroup.name.dough=农夫乐事：披萨坊-面团
+
+brewinandchewin.progress_bar.tooltip=发酵进度：
