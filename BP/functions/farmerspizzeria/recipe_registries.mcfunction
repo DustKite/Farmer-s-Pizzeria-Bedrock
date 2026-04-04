@@ -1,1 +1,0 @@
-scoreboard objectives add farmersdelight_farmerspizzeria_cutting_board dummy

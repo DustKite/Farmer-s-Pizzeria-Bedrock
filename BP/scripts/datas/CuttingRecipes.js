@@ -1,0 +1,8 @@
+export const CuttingBoardRecipes = [
+    { ingredients: { item: "farmerspizzeria:carbonara_pizza" }, result: [{ item: "farmerspizzeria:carbonara_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
+    { ingredients: { item: "farmerspizzeria:cheese_pizza" }, result: [{ item: "farmerspizzeria:cheese_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
+    { ingredients: { item: "farmerspizzeria:margarita_pizza" }, result: [{ item: "farmerspizzeria:margarita_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
+    { ingredients: { item: "farmerspizzeria:meat_feast_pizza" }, result: [{ item: "farmerspizzeria:meat_feast_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
+    { ingredients: { item: "farmerspizzeria:pepperoni_pizza" }, result: [{ item: "farmerspizzeria:pepperoni_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
+    { ingredients: { item: "farmerspizzeria:dorblu_cheese_wheel" }, result: [{ item: "farmerspizzeria:dorblu_cheese_wedge", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" }
+];

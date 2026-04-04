@@ -1,0 +1,185 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "farmerspizzeria:basil",
+            "states": {
+                "farmersdelight:growth": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "basil_0",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            2,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "basil_1",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            8,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "basil_2",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            11,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') == 3",
+                "components": {
+                    "minecraft:loot": "loot_tables/farmerspizzeria/crops/basil_riped.json",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "basil_3",
+                            "ambient_occlusion": false,
+                            "face_dimming": false,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('farmersdelight:growth') >= 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            14,
+                            12
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "farmersdelight:crop": {
+                "loot": "loot_tables/farmerspizzeria/empty.json",
+                "state": {
+                    "name": "farmersdelight:growth",
+                    "age": 3,
+                    "age_after_harvest": 3
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "basil_0",
+                    "ambient_occlusion": false,
+                    "face_dimming": false,
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:redstone_conductivity": {
+                "allows_wire_to_step_down": false
+            },
+            "minecraft:loot": "loot_tables/farmerspizzeria/crops/basil.json",
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "on_liquid_touches": "popped"
+                    }
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.0
+            },
+            "minecraft:flammable": {
+                "catch_chance_modifier": 30,
+                "destroy_chance_modifier": 30
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:geometry": "geometry.crop_cross",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.0
+            },
+            "minecraft:collision_box": false,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "minecraft:farmland",
+                            "farmersdelight:rich_soil_farmland"
+                        ],
+                        "allowed_faces": [
+                            "up"
+                        ]
+                    }
+                ]
+            },
+            "tag:crop": {},
+            "tag:max_growth:3": {},
+            "tag:growth_property:farmersdelight:growth": {}
+        }
+    }
+}

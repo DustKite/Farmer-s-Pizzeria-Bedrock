@@ -1,0 +1,11 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "farmerspizzeria:wild_basil_aggregate_feature"
+        },
+        "features": [
+            "farmerspizzeria:scatter_wild_basil_feature"
+        ]
+    }
+}

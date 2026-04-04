@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farmerspizzeria:scatter_wild_basil_feature"
+        },
+        "places_feature": "farmerspizzeria:wild_basil_feature",
+        "iterations": 8,
+        "x": {
+            "distribution": "uniform",
+            "extent": [
+                2,
+                7
+            ]
+        },
+        "y": "query.above_top_solid(variable.worldx, variable.worldz)",
+        "z": {
+            "distribution": "uniform",
+            "extent": [
+                2,
+                7
+            ]
+        }
+    }
+}
