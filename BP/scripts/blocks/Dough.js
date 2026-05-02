@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { system, BlockPermutation, ItemStack } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
-import { ItemUtil } from "../lib/ItemUtil";
+import { ItemUtil } from "../lib/ItemUtil_old";
 const BITS = {
     SAUCE: 1,
     CHEESE: 2,

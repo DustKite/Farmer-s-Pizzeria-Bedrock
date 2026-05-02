@@ -10,7 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { world, system, StartupEvent, PlayerBreakBlockBeforeEvent, ItemComponentTypes, ItemStack, PlayerInteractWithBlockAfterEvent, GameMode } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 import { ItemAPI } from "../lib/ItemAPI";
-
 export class DorbluCheese {
     unripe(args) {
         args.blockComponentRegistry.registerCustomComponent('farmerspizzeria:unripe_cheese', {
@@ -22,23 +21,29 @@ export class DorbluCheese {
             }
         });
     }
-
     playerBreak(args) {
         const { block, itemStack, player } = args;
-        if (!itemStack || block.typeId !== "farmerspizzeria:dorblu_cheese_wheel") return;
-        if (block.permutation.getState("farmerspizzeria:cheese_stage") == 0) return;
-        if (itemStack.getComponent(ItemComponentTypes.Enchantable)?.getEnchantment('silk_touch')) {
-            args.cancel = true;
-            system.runTimeout(() => {
-                const { x, y, z } = block.location;
-                block.dimension.runCommand(`setblock ${x} ${y} ${z} air`);
-                if (player?.getGameMode() != GameMode.Creative) {
-                    ItemAPI.damageItem(player, player.selectedSlotIndex);
-                }
-            });
-        }
+        if (block.typeId !== "farmerspizzeria:dorblu_cheese_wheel") return;
+        const stage = block.permutation.getState("farmerspizzeria:cheese_stage");
+        if (stage === undefined || stage === 0) return;
+        args.cancel = true;
+        const dimension = block.dimension;
+        const location = block.location;
+        const wedgeId = "farmerspizzeria:dorblu_cheese_wedge";
+        const wedgeCount = 4 - stage;
+        const hasSilkTouch = itemStack?.getComponent(ItemComponentTypes.Enchantable)?.getEnchantment('silk_touch');
+        system.runTimeout(() => {
+            const isCreative = player?.getGameMode() === GameMode.Creative;
+            if (!isCreative && itemStack) {
+                ItemAPI.damageItem(player, player.selectedSlotIndex);
+            }
+            dimension.setBlockType(location, "minecraft:air");
+            if (!isCreative && !hasSilkTouch) {
+                const dropItem = new ItemStack(wedgeId, wedgeCount);
+                dimension.spawnItem(dropItem, { x: location.x + 0.5, y: location.y + 0.5, z: location.z + 0.5 });
+            }
+        });
     }
-
     use(args) {
         const { block, player } = args;
         if (!player || block.typeId !== "farmerspizzeria:dorblu_cheese_wheel") return;
@@ -66,21 +71,18 @@ export class DorbluCheese {
         }
     }
 }
-
 __decorate([
     EventAPI.register(system.beforeEvents.startup),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [StartupEvent]),
     __metadata("design:returntype", void 0)
 ], DorbluCheese.prototype, "unripe", null);
-
 __decorate([
     EventAPI.register(world.beforeEvents.playerBreakBlock),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [PlayerBreakBlockBeforeEvent]),
     __metadata("design:returntype", void 0)
 ], DorbluCheese.prototype, "playerBreak", null);
-
 __decorate([
     EventAPI.register(world.afterEvents.playerInteractWithBlock),
     __metadata("design:type", Function),
