@@ -21,7 +21,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "dorblu_cheese_wedge"
+                    "default": "farmerspizzeria:dorblu_cheese_wedge"
                 }
             }
         },

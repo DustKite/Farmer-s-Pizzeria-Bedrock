@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:dough",
@@ -29,7 +29,7 @@
                     "minecraft:geometry": "geometry.dough",
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "dough"
+                            "texture": "farmerspizzeria:dough"
                         }
                     }
                 }
@@ -40,7 +40,7 @@
                     "minecraft:geometry": "geometry.dough_1",
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "dough_1"
+                            "texture": "farmerspizzeria:dough_1"
                         }
                     },
                     "minecraft:collision_box": {
@@ -75,7 +75,7 @@
                     "minecraft:geometry": "geometry.dough_2",
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "dough_2"
+                            "texture": "farmerspizzeria:dough_2"
                         }
                     },
                     "minecraft:collision_box": {
@@ -174,7 +174,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "dough"
+                    "texture": "farmerspizzeria:dough"
                 }
             },
             "minecraft:collision_box": {

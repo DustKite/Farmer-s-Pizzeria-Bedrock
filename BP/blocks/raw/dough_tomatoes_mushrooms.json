@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:dough_tomatoes_mushrooms",
@@ -101,7 +101,7 @@
             "minecraft:light_dampening": 0,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "dough_tomatoes_mushrooms"
+                    "texture": "farmerspizzeria:dough_tomatoes_mushrooms"
                 }
             }
         }

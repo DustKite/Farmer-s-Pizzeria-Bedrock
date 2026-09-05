@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:dorblu_cheese_wheel",
@@ -103,16 +103,16 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "dorblu_cheese_wheel_side"
+                    "texture": "farmerspizzeria:dorblu_cheese_wheel_side"
                 },
                 "up": {
-                    "texture": "dorblu_cheese_wheel_top"
+                    "texture": "farmerspizzeria:dorblu_cheese_wheel_top"
                 },
                 "down": {
-                    "texture": "dorblu_cheese_wheel_bottom"
+                    "texture": "farmerspizzeria:dorblu_cheese_wheel_bottom"
                 },
                 "inside": {
-                    "texture": "dorblu_cheese_wheel_inside"
+                    "texture": "farmerspizzeria:dorblu_cheese_wheel_inside"
                 }
             },
             "minecraft:destructible_by_mining": {

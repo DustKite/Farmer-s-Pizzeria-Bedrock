@@ -14,7 +14,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "salami"
+                    "default": "farmerspizzeria:salami"
                 }
             }
         },

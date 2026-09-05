@@ -8,7 +8,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "wild_basil"
+                    "default": "farmerspizzeria:wild_basil"
                 }
             }
         },

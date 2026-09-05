@@ -1,5 +1,5 @@
 pack.name=Farmer's Pizzeria
-pack.description=Compatible with version 1.26.0+. This mod is a port of the original Java Edition mod Farmer's Pizzeria, adapted with authorization from the original author.
+pack.description=Compatible with 1.21.90+, this mod is a port of the original Java mod: Farmer's Pizzeria with authorization from the original author
 
 farmerspizzeria.dough=Dough
 farmerspizzeria.dough.description=Contents: 
@@ -18,6 +18,8 @@ item.farmerspizzeria.raw_pepperoni_pizza=Raw Pepperoni Pizza
 item.farmerspizzeria.raw_cheese_pizza=Raw Cheese Pizza
 item.farmerspizzeria.raw_margarita_pizza=Raw Margherita Pizza
 item.farmerspizzeria.raw_funghi_pizza=Raw Funghi Pizza
+
+item.farmerspizzeria:book_farmerspizzeria=The Book of Farmer's Pizzeria
 
 item.farmerspizzeria:basil_seeds=Basil Seeds
 item.farmerspizzeria:basil_leaves=Basil Leaves
@@ -55,3 +57,23 @@ item.farmerspizzeria:rolling_pin=Rolling Pin
 farmerspizzeria.blockfood.is_knife=You need a knife to cut it!
 
 farmerspizzeria:itemGroup.name.dough=Farmer's Pizzeria-Dough
+
+farmerspizzeria.book.pack=Farmer's Pizzeria
+farmerspizzeria.book.body=§hThis book contains some basic mod content and recipes§r 
+farmerspizzeria.book.back=Back
+farmerspizzeria.book.pizza=Pizza
+farmerspizzeria.book.thanks=Credits
+farmerspizzeria.book.pizza_process=Pizza Making Process
+farmerspizzeria.book.funghi_pizza=Funghi Pizza
+
+item.red_mushroom.name=Red Mushroom
+
+farmerspizzeria.book.basil_leaves.description=§rBasil Leaves can be obtained by breaking basil crops and wild basil. Wild basil generates in Jungle and Forest biomes
+farmerspizzeria.book.pizza_process.description=§r1. Prepare dough, tomato sauce, and toppings\n2. Place dough and roll it into a round base with a rolling pin\n3. Spread tomato sauce evenly on the crust\n4. Add desired toppings\n5. Bake pizza in a smoker\n6. Take out pizza, slice and enjoy
+farmerspizzeria.book.carbonara_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Bacon, and Egg
+farmerspizzeria.book.meat_feast_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Bacon, Salami, and Ham
+farmerspizzeria.book.pepperoni_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge and Salami
+farmerspizzeria.book.cheese_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Scarlet Cheese Wedge, and Dorblu Cheese
+farmerspizzeria.book.margarita_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Tomato, and Basil Leaves
+farmerspizzeria.book.funghi_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Tomato, Brown Mushroom, and Basil Leaves
+farmerspizzeria.book.thanks.description=Special thanks to §o§hdmn_alex§r for creating this wonderful mod, and it is a great honor to receive permission to port it.

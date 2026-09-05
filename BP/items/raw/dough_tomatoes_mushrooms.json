@@ -11,7 +11,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "dough_tomatoes_mushrooms"
+                    "default": "farmerspizzeria:dough_tomatoes_mushrooms"
                 }
             }
         },

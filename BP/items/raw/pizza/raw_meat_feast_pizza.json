@@ -11,7 +11,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "raw_meat_feast_pizza"
+                    "default": "farmerspizzeria:raw_meat_feast_pizza"
                 }
             }
         },

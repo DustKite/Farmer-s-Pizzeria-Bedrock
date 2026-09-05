@@ -11,7 +11,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "raw_margarita_pizza"
+                    "default": "farmerspizzeria:raw_margarita_pizza"
                 }
             }
         },

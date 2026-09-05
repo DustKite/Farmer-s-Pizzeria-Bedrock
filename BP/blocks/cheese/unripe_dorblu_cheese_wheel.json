@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:unripe_dorblu_cheese_wheel",
@@ -68,13 +68,13 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "unripe_dorblu_cheese_wheel_side"
+                    "texture": "farmerspizzeria:unripe_dorblu_cheese_wheel_side"
                 },
                 "up": {
-                    "texture": "unripe_dorblu_cheese_wheel_top"
+                    "texture": "farmerspizzeria:unripe_dorblu_cheese_wheel_top"
                 },
                 "down": {
-                    "texture": "unripe_dorblu_cheese_wheel_bottom"
+                    "texture": "farmerspizzeria:unripe_dorblu_cheese_wheel_bottom"
                 }
             },
             "farmerspizzeria:unripe_cheese": {},

@@ -9,7 +9,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "dorblu_cheese_wheel"
+                    "default": "farmerspizzeria:dorblu_cheese_wheel"
                 }
             }
         },

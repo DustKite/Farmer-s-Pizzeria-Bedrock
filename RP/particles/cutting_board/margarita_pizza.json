@@ -51,7 +51,7 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/items/margarita_pizza"
+        "texture": "textures/items/farmerspizzeria/margarita_pizza"
       },
       "identifier": "farmerspizzeria:margarita_pizza"
     }

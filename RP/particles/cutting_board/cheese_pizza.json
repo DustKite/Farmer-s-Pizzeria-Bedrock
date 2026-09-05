@@ -51,7 +51,7 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/items/cheese_pizza"
+        "texture": "textures/items/farmerspizzeria/cheese_pizza"
       },
       "identifier": "farmerspizzeria:cheese_pizza"
     }

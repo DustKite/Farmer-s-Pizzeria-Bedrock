@@ -11,7 +11,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "raw_pepperoni_pizza"
+                    "default": "farmerspizzeria:raw_pepperoni_pizza"
                 }
             }
         },

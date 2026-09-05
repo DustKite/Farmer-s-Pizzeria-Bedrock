@@ -51,7 +51,7 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/items/meat_feast_pizza"
+        "texture": "textures/items/farmerspizzeria/meat_feast_pizza"
       },
       "identifier": "farmerspizzeria:meat_feast_pizza"
     }

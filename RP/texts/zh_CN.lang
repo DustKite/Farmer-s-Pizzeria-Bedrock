@@ -1,5 +1,5 @@
 pack.name=农夫乐事:披萨坊
-pack.description=适配1.26.0+, 本模组根据原Java版模组：披萨坊在获得原作者授权的情况下进行移植
+pack.description=适配1.21.90+, 本模组根据原Java版模组：披萨坊在获得原作者授权的情况下进行移植
 
 farmerspizzeria.dough=面团
 farmerspizzeria.dough.description=内含: 
@@ -7,7 +7,7 @@ item.farmersdelight.tomato_sauce=番茄酱
 item.farmersdelight.tomato=番茄
 item.brewinandchewin.flaxen_cheese_wedge=淡黄奶酪块
 item.brewinandchewin.scarlet_cheese_wedge=绯红奶酪块
-item.farmerspizzeria.dorblu_cheese_wedge=蓝纹奶酪
+item.farmerspizzeria.dorblu_cheese_wedge=蓝纹奶酪块
 item.farmersdelight.bacon=生培根
 item.farmersdelight.ham=火腿
 item.farmerspizzeria.salami=萨拉米香肠
@@ -18,6 +18,8 @@ item.farmerspizzeria.raw_pepperoni_pizza=意式辣肠披萨胚
 item.farmerspizzeria.raw_cheese_pizza=奶酪披萨胚
 item.farmerspizzeria.raw_margarita_pizza=玛格丽特披萨胚
 item.farmerspizzeria.raw_funghi_pizza=蘑菇披萨胚
+
+item.farmerspizzeria:book_farmerspizzeria=披萨坊指南
 
 item.farmerspizzeria:basil_seeds=罗勒种子
 item.farmerspizzeria:basil_leaves=罗勒叶
@@ -56,4 +58,22 @@ farmerspizzeria.blockfood.is_knife=你需要一个刀来切它！
 
 farmerspizzeria:itemGroup.name.dough=农夫乐事：披萨坊-面团
 
-brewinandchewin.progress_bar.tooltip=发酵进度：
+farmerspizzeria.book.pack=农夫乐事:披萨坊
+farmerspizzeria.book.body=§h本书包含了一些基础的模组内容及配方§r 
+farmerspizzeria.book.back=返回
+farmerspizzeria.book.pizza=披萨
+farmerspizzeria.book.thanks=鸣谢
+farmerspizzeria.book.pizza_process=披萨制作流程
+farmerspizzeria.book.funghi_pizza=蘑菇披萨
+
+item.red_mushroom.name=红蘑菇
+
+farmerspizzeria.book.basil_leaves.description=§r罗勒叶可以通过破坏罗勒作物、破坏野生罗勒来获得。野生罗勒生成在丛林与森林生物群系
+farmerspizzeria.book.pizza_process.description=§r1. 准备好面团、番茄酱和配料\n2. 放置面团并用擀面杖将其擀成圆形饼底\n3. 在饼底上均匀涂抹番茄酱\n4. 添加所需的配料\n5. 将披萨放入烟熏炉中烘烤\n6. 取出披萨，切片享用
+farmerspizzeria.book.carbonara_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、培根和鸡蛋
+farmerspizzeria.book.meat_feast_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、培根、萨拉米香肠和火腿
+farmerspizzeria.book.pepperoni_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块和萨拉米香肠
+farmerspizzeria.book.cheese_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、绯红奶酪块和蓝纹奶酪
+farmerspizzeria.book.margarita_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、番茄和罗勒叶
+farmerspizzeria.book.funghi_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、番茄、棕色蘑菇和罗勒叶
+farmerspizzeria.book.thanks.description=非常感谢§o§hdmn_alex§r创造出这个如此精妙的模组，同时也为能获得移植授权感到十分荣幸。

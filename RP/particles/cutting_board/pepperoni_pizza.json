@@ -51,7 +51,7 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/items/pepperoni_pizza"
+        "texture": "textures/items/farmerspizzeria/pepperoni_pizza"
       },
       "identifier": "farmerspizzeria:pepperoni_pizza"
     }

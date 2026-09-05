@@ -11,7 +11,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "basil_seeds"
+                    "default": "farmerspizzeria:basil_seeds"
                 }
             },
             "farmersdelight:seed": "farmerspizzeria:basil",

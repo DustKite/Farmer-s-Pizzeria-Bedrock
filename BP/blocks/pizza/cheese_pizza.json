@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:cheese_pizza",
@@ -144,16 +144,16 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "cheese_pizza_top"
+                    "texture": "farmerspizzeria:cheese_pizza_top"
                 },
                 "inner": {
-                    "texture": "pizza_inside"
+                    "texture": "farmerspizzeria:pizza_inside"
                 },
                 "side": {
-                    "texture": "pizza_side"
+                    "texture": "farmerspizzeria:pizza_side"
                 },
                 "down": {
-                    "texture": "pizza_bottom"
+                    "texture": "farmerspizzeria:pizza_bottom"
                 }
             }
         }

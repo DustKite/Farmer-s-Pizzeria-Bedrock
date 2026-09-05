@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:raw_funghi_pizza",
@@ -101,7 +101,7 @@
             "minecraft:light_dampening": 0,
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "raw_funghi_pizza"
+                    "texture": "farmerspizzeria:raw_funghi_pizza"
                 }
             }
         }

@@ -2,104 +2,107 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
-    "basil_seeds": {
-      "textures": "textures/items/basil_seeds"
+    "farmerspizzeria:basil_leaves": {
+      "textures": "textures/items/farmerspizzeria/basil_leaves"
     },
-    "basil_leaves": {
-      "textures": "textures/items/basil_leaves"
+    "farmerspizzeria:basil_seeds": {
+      "textures": "textures/items/farmerspizzeria/basil_seeds"
     },
-    "carbonara_pizza": {
-      "textures": "textures/items/carbonara_pizza"
+    "farmerspizzeria:book_farmerspizzeria": {
+      "textures": "textures/items/farmerspizzeria/book_farmerspizzeria"
     },
-    "cheese_pizza": {
-      "textures": "textures/items/cheese_pizza"
+    "farmerspizzeria:carbonara_pizza": {
+      "textures": "textures/items/farmerspizzeria/carbonara_pizza"
     },
-    "dorblu_cheese_wedge": {
-      "textures": "textures/items/dorblu_cheese_wedge"
+    "farmerspizzeria:carbonara_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/carbonara_pizza_slice"
     },
-    "dorblu_cheese_wheel": {
-      "textures": "textures/items/dorblu_cheese_wheel"
+    "farmerspizzeria:cheese_pizza": {
+      "textures": "textures/items/farmerspizzeria/cheese_pizza"
     },
-    "dough_bacon": {
-      "textures": "textures/items/dough_bacon"
+    "farmerspizzeria:cheese_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/cheese_pizza_slice"
     },
-    "dough_bacon_pepperoni": {
-      "textures": "textures/items/dough_bacon_pepperoni"
+    "farmerspizzeria:dorblu_cheese_wedge": {
+      "textures": "textures/items/farmerspizzeria/dorblu_cheese_wedge"
     },
-    "dough_cheese": {
-      "textures": "textures/items/dough_cheese"
+    "farmerspizzeria:dorblu_cheese_wheel": {
+      "textures": "textures/items/farmerspizzeria/dorblu_cheese_wheel"
     },
-    "dough_mushrooms": {
-      "textures": "textures/items/dough_mushrooms"
+    "farmerspizzeria:dough_bacon": {
+      "textures": "textures/items/farmerspizzeria/dough_bacon"
     },
-    "dough_tomato_sauce": {
-      "textures": "textures/items/dough_tomato_sauce"
+    "farmerspizzeria:dough_bacon_pepperoni": {
+      "textures": "textures/items/farmerspizzeria/dough_bacon_pepperoni"
     },
-    "dough_tomatoes": {
-      "textures": "textures/items/dough_tomatoes"
+    "farmerspizzeria:dough_cheese": {
+      "textures": "textures/items/farmerspizzeria/dough_cheese"
     },
-    "dough_tomatoes_mushrooms": {
-      "textures": "textures/items/dough_tomatoes_mushrooms"
+    "farmerspizzeria:dough_mushrooms": {
+      "textures": "textures/items/farmerspizzeria/dough_mushrooms"
     },
-    "dough_two_cheeses": {
-      "textures": "textures/items/dough_two_cheeses"
+    "farmerspizzeria:dough_tomatoes": {
+      "textures": "textures/items/farmerspizzeria/dough_tomatoes"
     },
-    "dough_two_cheeses_2": {
-      "textures": "textures/items/dough_two_cheeses_2"
+    "farmerspizzeria:dough_tomatoes_mushrooms": {
+      "textures": "textures/items/farmerspizzeria/dough_tomatoes_mushrooms"
     },
-    "carbonara_pizza_slice": {
-      "textures": "textures/items/carbonara_pizza_slice"
+    "farmerspizzeria:dough_tomato_sauce": {
+      "textures": "textures/items/farmerspizzeria/dough_tomato_sauce"
     },
-    "cheese_pizza_slice": {
-      "textures": "textures/items/cheese_pizza_slice"
+    "farmerspizzeria:dough_two_cheeses": {
+      "textures": "textures/items/farmerspizzeria/dough_two_cheeses"
     },
-    "margarita_pizza_slice": {
-      "textures": "textures/items/margarita_pizza_slice"
+    "farmerspizzeria:dough_two_cheeses_2": {
+      "textures": "textures/items/farmerspizzeria/dough_two_cheeses_2"
     },
-    "meat_feast_pizza_slice": {
-      "textures": "textures/items/meat_feast_pizza_slice"
+    "farmerspizzeria:margarita_pizza": {
+      "textures": "textures/items/farmerspizzeria/margarita_pizza"
     },
-    "pepperoni_pizza_slice": {
-      "textures": "textures/items/pepperoni_pizza_slice"
+    "farmerspizzeria:margarita_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/margarita_pizza_slice"
     },
-    "margarita_pizza": {
-      "textures": "textures/items/margarita_pizza"
+    "farmerspizzeria:meat_feast_pizza": {
+      "textures": "textures/items/farmerspizzeria/meat_feast_pizza"
     },
-    "meat_feast_pizza": {
-      "textures": "textures/items/meat_feast_pizza"
+    "farmerspizzeria:meat_feast_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/meat_feast_pizza_slice"
     },
-    "pepperoni_pizza": {
-      "textures": "textures/items/pepperoni_pizza"
+    "farmerspizzeria:pepperoni_pizza": {
+      "textures": "textures/items/farmerspizzeria/pepperoni_pizza"
     },
-    "raw_carbonara_pizza": {
-      "textures": "textures/items/raw_carbonara_pizza"
+    "farmerspizzeria:pepperoni_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/pepperoni_pizza_slice"
     },
-    "raw_cheese_pizza": {
-      "textures": "textures/items/raw_cheese_pizza"
+    "farmerspizzeria:raw_carbonara_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_carbonara_pizza"
     },
-    "raw_funghi_pizza": {
-      "textures": "textures/items/raw_funghi_pizza"
+    "farmerspizzeria:raw_cheese_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_cheese_pizza"
     },
-    "raw_margarita_pizza": {
-      "textures": "textures/items/raw_margarita_pizza"
+    "farmerspizzeria:raw_funghi_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_funghi_pizza"
     },
-    "raw_meat_feast_pizza": {
-      "textures": "textures/items/raw_meat_feast_pizza"
+    "farmerspizzeria:raw_margarita_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_margarita_pizza"
     },
-    "raw_pepperoni_pizza": {
-      "textures": "textures/items/raw_pepperoni_pizza"
+    "farmerspizzeria:raw_meat_feast_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_meat_feast_pizza"
     },
-    "rolling_pin": {
-      "textures": "textures/items/rolling_pin"
+    "farmerspizzeria:raw_pepperoni_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_pepperoni_pizza"
     },
-    "salami": {
-      "textures": "textures/items/salami"
+    "farmerspizzeria:rolling_pin": {
+      "textures": "textures/items/farmerspizzeria/rolling_pin"
     },
-    "unripe_dorblu_cheese_wheel": {
-      "textures": "textures/items/unripe_dorblu_cheese_wheel"
+    "farmerspizzeria:salami": {
+      "textures": "textures/items/farmerspizzeria/salami"
     },
-    "wild_basil": {
-      "textures": "textures/items/wild_basil"
+    "farmerspizzeria:unripe_dorblu_cheese_wheel": {
+      "textures": "textures/items/farmerspizzeria/unripe_dorblu_cheese_wheel"
+    },
+    "farmerspizzeria:wild_basil": {
+      "textures": "textures/items/farmerspizzeria/wild_basil"
     }
   }
 }

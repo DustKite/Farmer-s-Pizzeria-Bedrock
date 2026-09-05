@@ -11,7 +11,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "dough_two_cheeses"
+                    "default": "farmerspizzeria:dough_two_cheeses"
                 }
             }
         },

@@ -9,7 +9,7 @@
             },
             "minecraft:icon": {
                 "textures": {
-                    "default": "basil_leaves"
+                    "default": "farmerspizzeria:basil_leaves"
                 }
             },
             "minecraft:compostable": {

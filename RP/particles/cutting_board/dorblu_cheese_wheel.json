@@ -51,7 +51,7 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/items/dorblu_cheese_wheel"
+        "texture": "textures/items/farmerspizzeria/dorblu_cheese_wheel"
       },
       "identifier": "farmerspizzeria:dorblu_cheese_wheel"
     }

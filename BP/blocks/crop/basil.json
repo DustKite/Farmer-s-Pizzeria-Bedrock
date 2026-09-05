@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.90",
+    "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:basil",
@@ -18,7 +18,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "basil_0",
+                            "texture": "farmerspizzeria:basil_0",
                             "ambient_occlusion": false,
                             "face_dimming": false,
                             "render_method": "alpha_test"
@@ -43,7 +43,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "basil_1",
+                            "texture": "farmerspizzeria:basil_1",
                             "ambient_occlusion": false,
                             "face_dimming": false,
                             "render_method": "alpha_test"
@@ -68,7 +68,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "basil_2",
+                            "texture": "farmerspizzeria:basil_2",
                             "ambient_occlusion": false,
                             "face_dimming": false,
                             "render_method": "alpha_test"
@@ -94,7 +94,7 @@
                     "minecraft:loot": "loot_tables/farmerspizzeria/crops/basil_riped.json",
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "basil_3",
+                            "texture": "farmerspizzeria:basil_3",
                             "ambient_occlusion": false,
                             "face_dimming": false,
                             "render_method": "alpha_test"
@@ -131,7 +131,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "basil_0",
+                    "texture": "farmerspizzeria:basil_0",
                     "ambient_occlusion": false,
                     "face_dimming": false,
                     "render_method": "alpha_test"

@@ -51,7 +51,7 @@
     "description": {
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/items/carbonara_pizza"
+        "texture": "textures/items/farmerspizzeria/carbonara_pizza"
       },
       "identifier": "farmerspizzeria:carbonara_pizza"
     }
