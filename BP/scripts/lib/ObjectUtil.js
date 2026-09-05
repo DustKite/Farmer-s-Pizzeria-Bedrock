@@ -1,6 +1,5 @@
-export function resolveSpec(holder, name) {
-    return holder?.getComponent(name)?.customComponentParameters?.params;
-}
-export function isSamePos(required, supplied) {
-    return supplied && required.x === supplied.x && required.y === supplied.y && required.z === supplied.z;
+export default class ObjectUtil {
+    static isEqual(obj1, obj2) {
+        return JSON.stringify(obj1) === JSON.stringify(obj2);
+    }
 }

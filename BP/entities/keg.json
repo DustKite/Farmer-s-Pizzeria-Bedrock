@@ -1,0 +1,81 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "brewinandchewin:keg",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "brewinandchewin:keg_despawn": {
+        "minecraft:transformation": {
+          "drop_inventory": false,
+          "into": "minecraft:air"
+        },
+        "minecraft:instant_despawn": {
+          "remove_child_entities": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "on_damage": {},
+          "deals_damage": false
+        }
+      },
+      "minecraft:timer": {
+        "looping": true,
+        "randomInterval": true,
+        "time": [
+          0.0,
+          0.0
+        ],
+        "time_down_event": {
+          "event": "farmerspizzeria:keg_tick"
+        }
+      },
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:type_family": {
+        "family": [
+          "keg",
+          "farmerspizzeria_tick_block_entity",
+          "brewinandchewin_tick_block_entity",
+          "inanimate"
+        ]
+      },
+      "minecraft:breathable": {
+        "breathes_solids": true
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1,
+        "min": 1
+      },
+      "minecraft:collision_box": {
+        "width": 1.0,
+        "height": 0.8
+      },
+      "minecraft:inventory": {
+        "inventory_size": 9,
+        "can_be_siphoned_from": false,
+        "container_type": "minecart_chest"
+      }
+    },
+    "events": {
+      "brewinandchewin:despawn": {
+        "add": {
+          "component_groups": [
+            "brewinandchewin:keg_despawn"
+          ]
+        }
+      },
+      "farmerspizzeria:keg_tick": {}
+    }
+  }
+}
