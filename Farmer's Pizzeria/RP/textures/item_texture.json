@@ -1,0 +1,108 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "farmerspizzeria:basil_leaves": {
+      "textures": "textures/items/farmerspizzeria/basil_leaves"
+    },
+    "farmerspizzeria:basil_seeds": {
+      "textures": "textures/items/farmerspizzeria/basil_seeds"
+    },
+    "farmerspizzeria:book_farmerspizzeria": {
+      "textures": "textures/items/farmerspizzeria/book_farmerspizzeria"
+    },
+    "farmerspizzeria:carbonara_pizza": {
+      "textures": "textures/items/farmerspizzeria/carbonara_pizza"
+    },
+    "farmerspizzeria:carbonara_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/carbonara_pizza_slice"
+    },
+    "farmerspizzeria:cheese_pizza": {
+      "textures": "textures/items/farmerspizzeria/cheese_pizza"
+    },
+    "farmerspizzeria:cheese_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/cheese_pizza_slice"
+    },
+    "farmerspizzeria:dorblu_cheese_wedge": {
+      "textures": "textures/items/farmerspizzeria/dorblu_cheese_wedge"
+    },
+    "farmerspizzeria:dorblu_cheese_wheel": {
+      "textures": "textures/items/farmerspizzeria/dorblu_cheese_wheel"
+    },
+    "farmerspizzeria:dough_bacon": {
+      "textures": "textures/items/farmerspizzeria/dough_bacon"
+    },
+    "farmerspizzeria:dough_bacon_pepperoni": {
+      "textures": "textures/items/farmerspizzeria/dough_bacon_pepperoni"
+    },
+    "farmerspizzeria:dough_cheese": {
+      "textures": "textures/items/farmerspizzeria/dough_cheese"
+    },
+    "farmerspizzeria:dough_mushrooms": {
+      "textures": "textures/items/farmerspizzeria/dough_mushrooms"
+    },
+    "farmerspizzeria:dough_tomatoes": {
+      "textures": "textures/items/farmerspizzeria/dough_tomatoes"
+    },
+    "farmerspizzeria:dough_tomatoes_mushrooms": {
+      "textures": "textures/items/farmerspizzeria/dough_tomatoes_mushrooms"
+    },
+    "farmerspizzeria:dough_tomato_sauce": {
+      "textures": "textures/items/farmerspizzeria/dough_tomato_sauce"
+    },
+    "farmerspizzeria:dough_two_cheeses": {
+      "textures": "textures/items/farmerspizzeria/dough_two_cheeses"
+    },
+    "farmerspizzeria:dough_two_cheeses_2": {
+      "textures": "textures/items/farmerspizzeria/dough_two_cheeses_2"
+    },
+    "farmerspizzeria:margarita_pizza": {
+      "textures": "textures/items/farmerspizzeria/margarita_pizza"
+    },
+    "farmerspizzeria:margarita_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/margarita_pizza_slice"
+    },
+    "farmerspizzeria:meat_feast_pizza": {
+      "textures": "textures/items/farmerspizzeria/meat_feast_pizza"
+    },
+    "farmerspizzeria:meat_feast_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/meat_feast_pizza_slice"
+    },
+    "farmerspizzeria:pepperoni_pizza": {
+      "textures": "textures/items/farmerspizzeria/pepperoni_pizza"
+    },
+    "farmerspizzeria:pepperoni_pizza_slice": {
+      "textures": "textures/items/farmerspizzeria/pepperoni_pizza_slice"
+    },
+    "farmerspizzeria:raw_carbonara_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_carbonara_pizza"
+    },
+    "farmerspizzeria:raw_cheese_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_cheese_pizza"
+    },
+    "farmerspizzeria:raw_funghi_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_funghi_pizza"
+    },
+    "farmerspizzeria:raw_margarita_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_margarita_pizza"
+    },
+    "farmerspizzeria:raw_meat_feast_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_meat_feast_pizza"
+    },
+    "farmerspizzeria:raw_pepperoni_pizza": {
+      "textures": "textures/items/farmerspizzeria/raw_pepperoni_pizza"
+    },
+    "farmerspizzeria:rolling_pin": {
+      "textures": "textures/items/farmerspizzeria/rolling_pin"
+    },
+    "farmerspizzeria:salami": {
+      "textures": "textures/items/farmerspizzeria/salami"
+    },
+    "farmerspizzeria:unripe_dorblu_cheese_wheel": {
+      "textures": "textures/items/farmerspizzeria/unripe_dorblu_cheese_wheel"
+    },
+    "farmerspizzeria:wild_basil": {
+      "textures": "textures/items/farmerspizzeria/wild_basil"
+    }
+  }
+}

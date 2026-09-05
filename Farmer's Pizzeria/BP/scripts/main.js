@@ -1,0 +1,18 @@
+import { DorbluCheese } from "./blocks/Cheese";
+import { Pizza } from "./blocks/Pizza";
+import { Dough } from "./blocks/Dough";
+import { DoughPlace } from "./blocks/DoughPlace";
+import { RecipeRegister } from "./register/Recipes";
+import { Keg } from "./blocks/keg/block";
+import { KegEntity } from "./blocks/keg/entity";
+import { Book } from "./items/Book";
+import { BrewinandchewinBook } from "./items/BrewinandchewinBook";
+new DorbluCheese();
+new Pizza();
+new Dough();
+new DoughPlace();
+new RecipeRegister();
+new Book();
+new BrewinandchewinBook();
+new Keg();
+new KegEntity();
