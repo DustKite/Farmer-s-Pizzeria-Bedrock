@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:dorblu_cheese_wheel",
@@ -101,9 +101,6 @@
             }
         ],
         "components": {
-            "minecraft:connection_rule": {
-                "accepts_connections_from": "none"
-            },
             "minecraft:material_instances": {
                 "*": {
                     "texture": "dorblu_cheese_wheel_side"

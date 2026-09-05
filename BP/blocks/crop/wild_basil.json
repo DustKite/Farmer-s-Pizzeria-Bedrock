@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:wild_basil",
@@ -88,10 +88,7 @@
                 ]
             },
             "minecraft:loot": "loot_tables/farmerspizzeria/crops/wild_basil.json",
-            "minecraft:collision_box": false,
-            "minecraft:connection_rule": {
-                "accepts_connections_from": "none"
-            }
+            "minecraft:collision_box": false
         }
     }
 }
