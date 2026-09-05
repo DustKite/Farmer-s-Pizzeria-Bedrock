@@ -8,7 +8,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { BlockPermutation, Direction, EquipmentSlot, GameMode, PlayerInteractWithBlockBeforeEvent, system, world, } from "@minecraft/server";
-import { subscribeEvent } from "../lib/EventSubscriber";
+import { EventAPI } from "../lib/EventAPI";
 import { offsetByDirection } from "../lib/DirectionUtil";
 import { takeEquippedItem } from "../lib/ItemUtil";
 export class DoughPlace {
@@ -55,7 +55,7 @@ export class DoughPlace {
     }
 }
 __decorate([
-    subscribeEvent(world.beforeEvents.playerInteractWithBlock),
+    EventAPI.register(world.beforeEvents.playerInteractWithBlock),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [PlayerInteractWithBlockBeforeEvent]),
     __metadata("design:returntype", void 0)

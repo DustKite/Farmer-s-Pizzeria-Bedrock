@@ -7,27 +7,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
-import { EventAPI } from "../lib/EventAPI";
-import { kepRecipes } from "../datas/KegRcipes";
-let register = true;
-export class KegRecipeRegister {
-    register(args) {
-        system.runInterval(() => {
-            if (register) {
-                for (let i = 0; i < kepRecipes.length; i++) {
-                    kepRecipes[i];
-                    const recipe = JSON.stringify(kepRecipes[i]);
-                    world.getDimension("overworld").runCommand(`scriptevent brewinandchewin:kep_recipe ${recipe}`);
-                }
-                register = false;
-            }
-        });
+import { PlayerPlaceBlockAfterEvent, world } from "@minecraft/server";
+import { EventAPI } from "../../lib/EventAPI";
+import { BlockWithEntity } from "../../lib/BlockWithEntity";
+export class Keg extends BlockWithEntity {
+    placeBlock(args) {
+        const block = args.block;
+        if (block.typeId != "brewinandchewin:keg")
+            return;
+        const { x, y, z } = block.location;
+        const entity = super.setBlock(args.block.dimension, { x: x + 0.5, y: y, z: z + 0.5 }, block.typeId);
+        entity.nameTag = `brewinandchewin:keg`;
     }
 }
 __decorate([
-    EventAPI.register(world.afterEvents.worldLoad),
+    EventAPI.register(world.afterEvents.playerPlaceBlock),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [WorldLoadAfterEvent]),
+    __metadata("design:paramtypes", [PlayerPlaceBlockAfterEvent]),
     __metadata("design:returntype", void 0)
-], KegRecipeRegister.prototype, "register", null);
+], Keg.prototype, "placeBlock", null);
