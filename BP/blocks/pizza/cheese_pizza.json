@@ -1,5 +1,5 @@
 {
-    "format_version": "1.26.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "farmerspizzeria:cheese_pizza",
@@ -155,6 +155,21 @@
                 "down": {
                     "texture": "farmerspizzeria:pizza_bottom"
                 }
+            },
+            "tag:farmerspizzeria:pizza": {},
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            {
+                                "tags": "!q.any_tag('minecraft:crop', 'farmerspizzeria:dough', 'farmerspizzeria:pizza', 'plant', 'farmersdelight:wild_crop','crop') && (!q.all_tags('fertilize_area') || q.any_tag('grass') || q.any_tag('dirt') || q.any_tag('minecraft:is_pickaxe_item_destructible'))"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }

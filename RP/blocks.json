@@ -29,6 +29,21 @@
     "farmerspizzeria:dough_bacon_pepperoni": {
         "sound": "cloth"
     },
+    "farmerspizzeria:dough_dried_kelp": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_dried_kelp_salmon": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:dough_dried_kelp_cod": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_abyssal_marinara_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:raw_boscaiola_pizza": {
+        "sound": "cloth"
+    },
     "farmerspizzeria:raw_margarita_pizza": {
         "sound": "cloth"
     },
@@ -45,6 +60,15 @@
         "sound": "cloth"
     },
     "farmerspizzeria:raw_pepperoni_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:abyssal_marinara_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:boscaiola_pizza": {
+        "sound": "cloth"
+    },
+    "farmerspizzeria:charcoal_pizza": {
         "sound": "cloth"
     },
     "farmerspizzeria:margarita_pizza": {

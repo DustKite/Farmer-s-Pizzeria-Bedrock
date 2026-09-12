@@ -1,0 +1,41 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:block_placer": {
+                "block": "farmerspizzeria:boscaiola_pizza",
+                "replace_block_item": true
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "farmersdelight:is_pizza"
+                ]
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "farmerspizzeria:boscaiola_pizza"
+                }
+            },
+            "farmersdelight:cuttable": {
+                "loot": [
+                    [
+                        "farmerspizzeria:boscaiola_pizza_slice",
+                        4
+                    ]
+                ],
+                "tool": {
+                    "type": "tag",
+                    "name": "farmersdelight:is_knife"
+                }
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:boscaiola_pizza",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

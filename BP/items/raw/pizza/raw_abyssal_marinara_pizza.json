@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "farmerspizzeria:raw_abyssal_marinara_pizza",
+                "replace_block_item": true
+            },
+            "minecraft:display_name": {
+                "value": "%item.farmerspizzeria.raw_abyssal_marinara_pizza\n%farmerspizzeria.dough.description\n%item.farmersdelight.tomato_sauce\n%item.brewinandchewin.flaxen_cheese_wedge\n%item.dried_kelp.name\n%item.farmersdelight.cod_slice\n%item.farmersdelight.salmon_slice"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "farmerspizzeria:raw_abyssal_marinara_pizza"
+                }
+            }
+        },
+        "description": {
+            "identifier": "farmerspizzeria:raw_abyssal_marinara_pizza",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmerspizzeria:itemGroup.name.dough"
+            }
+        }
+    }
+}

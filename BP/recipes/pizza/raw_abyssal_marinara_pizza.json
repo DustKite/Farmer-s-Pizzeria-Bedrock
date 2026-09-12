@@ -1,0 +1,13 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "farmerspizzeria:raw_abyssal_marinara_pizza"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": "farmerspizzeria:raw_abyssal_marinara_pizza",
+        "output": "farmerspizzeria:abyssal_marinara_pizza"
+    }
+}

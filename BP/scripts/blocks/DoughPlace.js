@@ -7,10 +7,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { BlockPermutation, Direction, EquipmentSlot, GameMode, PlayerInteractWithBlockBeforeEvent, system, world, } from "@minecraft/server";
+
+import { BlockPermutation, Direction, EquipmentSlot, GameMode, PlayerInteractWithBlockBeforeEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 import { offsetByDirection } from "../lib/DirectionUtil";
 import { takeEquippedItem } from "../lib/ItemUtil";
+
+function isValidGroundBlock(block) {
+    if (!block || block.isAir || block.isLiquid) return false;
+    if (
+        block.hasTag("minecraft:crop") ||
+        block.hasTag("farmerspizzeria:dough") ||
+        block.hasTag("farmerspizzeria:pizza") ||
+        block.hasTag("plant") ||
+        block.hasTag("farmersdelight:wild_crop") ||
+        block.hasTag("crop")
+    ) {
+        return false;
+    }
+    return !block.hasTag("fertilize_area") || block.hasTag("grass") || block.hasTag("dirt") || block.hasTag("minecraft:is_pickaxe_item_destructible");
+}
+
 export class DoughPlace {
     static place(event) {
         const stack = event.itemStack;
@@ -19,16 +36,22 @@ export class DoughPlace {
         if (!event.isFirstEvent)
             return;
         const block = event.block;
+        if (!block)
+            return;
         const blockId = block.typeId;
-        if (blockId == "farmersdelight:cutting_board")
+        if (blockId === "farmersdelight:cutting_board")
             return;
         const face = event.blockFace;
-        if (face != Direction.Up)
+        if (face !== Direction.Up)
             return;
+        if (!isValidGroundBlock(block))
+            return;
+
         const pos = offsetByDirection(face, { x: block.x, y: block.y, z: block.z });
         const targetBlock = block.dimension.getBlock(pos);
         if (!targetBlock || !targetBlock.isAir)
             return;
+
         const player = event.player;
         const rotation = player.getRotation();
         const yRot = ((rotation.y % 360) + 360) % 360;
@@ -41,6 +64,7 @@ export class DoughPlace {
             cardinalDirection = "north";
         else
             cardinalDirection = "east";
+
         event.cancel = true;
         system.run(() => {
             targetBlock.setPermutation(BlockPermutation.resolve("farmerspizzeria:dough", {
@@ -54,6 +78,7 @@ export class DoughPlace {
         });
     }
 }
+
 __decorate([
     EventAPI.register(world.beforeEvents.playerInteractWithBlock),
     __metadata("design:type", Function),

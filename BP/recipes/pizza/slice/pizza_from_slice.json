@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "brewinandchewin:pizza_from_slice"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AA",
+            "AA"
+        ],
+        "key": {
+            "A": {
+                "item": "brewinandchewin:pizza_slice"
+            }
+        },
+        "result": {
+            "item": "brewinandchewin:pizza"
+        }
+    }
+}
