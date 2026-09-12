@@ -1,5 +1,8 @@
 {
   "texture_data": {
+    "farmerspizzeria:abyssal_marinara_pizza_top": {
+      "textures": "textures/blocks/farmerspizzeria/abyssal_marinara_pizza_top"
+    },
     "farmerspizzeria:basil_0": {
       "textures": "textures/blocks/farmerspizzeria/basil_0"
     },
@@ -12,8 +15,23 @@
     "farmerspizzeria:basil_3": {
       "textures": "textures/blocks/farmerspizzeria/basil_3"
     },
+    "farmerspizzeria:boscaiola_pizza_top": {
+      "textures": "textures/blocks/farmerspizzeria/boscaiola_pizza_top"
+    },
     "farmerspizzeria:carbonara_pizza_top": {
       "textures": "textures/blocks/farmerspizzeria/carbonara_pizza_top"
+    },
+    "farmerspizzeria:charcoal_pizza_bottom": {
+      "textures": "textures/blocks/farmerspizzeria/charcoal_pizza_bottom"
+    },
+    "farmerspizzeria:charcoal_pizza_inside": {
+      "textures": "textures/blocks/farmerspizzeria/charcoal_pizza_inside"
+    },
+    "farmerspizzeria:charcoal_pizza_side": {
+      "textures": "textures/blocks/farmerspizzeria/charcoal_pizza_side"
+    },
+    "farmerspizzeria:charcoal_pizza_top": {
+      "textures": "textures/blocks/farmerspizzeria/charcoal_pizza_top"
     },
     "farmerspizzeria:cheese_pizza_top": {
       "textures": "textures/blocks/farmerspizzeria/cheese_pizza_top"
@@ -51,6 +69,15 @@
     "farmerspizzeria:dough_cheese": {
       "textures": "textures/blocks/farmerspizzeria/dough_cheese"
     },
+    "farmerspizzeria:dough_dried_kelp": {
+      "textures": "textures/blocks/farmerspizzeria/dough_dried_kelp"
+    },
+    "farmerspizzeria:dough_dried_kelp_cod": {
+      "textures": "textures/blocks/farmerspizzeria/dough_dried_kelp_cod"
+    },
+    "farmerspizzeria:dough_dried_kelp_salmon": {
+      "textures": "textures/blocks/farmerspizzeria/dough_dried_kelp_salmon"
+    },
     "farmerspizzeria:dough_mushrooms": {
       "textures": "textures/blocks/farmerspizzeria/dough_mushrooms"
     },
@@ -86,6 +113,12 @@
     },
     "farmerspizzeria:pizza_side": {
       "textures": "textures/blocks/farmerspizzeria/pizza_side"
+    },
+    "farmerspizzeria:raw_abyssal_marinara_pizza": {
+      "textures": "textures/blocks/farmerspizzeria/raw_abyssal_marinara_pizza"
+    },
+    "farmerspizzeria:raw_boscaiola_pizza": {
+      "textures": "textures/blocks/farmerspizzeria/raw_boscaiola_pizza"
     },
     "farmerspizzeria:raw_carbonara_pizza": {
       "textures": "textures/blocks/farmerspizzeria/raw_carbonara_pizza"

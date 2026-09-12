@@ -10,6 +10,8 @@ item.brewinandchewin.scarlet_cheese_wedge=绯红奶酪块
 item.farmerspizzeria.dorblu_cheese_wedge=蓝纹奶酪块
 item.farmersdelight.bacon=生培根
 item.farmersdelight.ham=火腿
+item.farmersdelight.cod_slice=生鳕鱼片
+item.farmersdelight.salmon_slice=生鲑鱼片
 item.farmerspizzeria.salami=萨拉米香肠
 item.farmerspizzeria.basil_leaves=罗勒叶
 item.farmerspizzeria.raw_carbonara_pizza=卡邦尼披萨胚
@@ -18,6 +20,8 @@ item.farmerspizzeria.raw_pepperoni_pizza=意式辣肠披萨胚
 item.farmerspizzeria.raw_cheese_pizza=奶酪披萨胚
 item.farmerspizzeria.raw_margarita_pizza=玛格丽特披萨胚
 item.farmerspizzeria.raw_funghi_pizza=蘑菇披萨胚
+item.farmerspizzeria.raw_abyssal_marinara_pizza=深海玛丽娜拉披萨胚
+item.farmerspizzeria.raw_boscaiola_pizza=樵夫披萨胚
 
 item.farmerspizzeria:book_farmerspizzeria=披萨坊指南
 
@@ -50,6 +54,17 @@ item.farmerspizzeria:raw_margarita_pizza=玛格丽特披萨胚
 item.farmerspizzeria:margarita_pizza=玛格丽特披萨
 item.farmerspizzeria:margarita_pizza_slice=玛格丽特披萨片
 
+item.farmerspizzeria:raw_abyssal_marinara_pizza=深海玛丽娜拉披萨胚
+item.farmerspizzeria:abyssal_marinara_pizza=深海玛丽娜拉披萨
+item.farmerspizzeria:abyssal_marinara_pizza_slice=深海玛丽娜拉披萨片
+
+item.farmerspizzeria:raw_boscaiola_pizza=樵夫披萨胚
+item.farmerspizzeria:boscaiola_pizza=樵夫披萨
+item.farmerspizzeria:boscaiola_pizza_slice=樵夫披萨片
+
+item.farmerspizzeria:charcoal_pizza=焦炭披萨
+item.farmerspizzeria:charcoal_pizza_slice=焦炭披萨片
+
 item.farmerspizzeria:raw_funghi_pizza=蘑菇披萨胚
 item.farmerspizzeria:salami=萨拉米香肠
 item.farmerspizzeria:rolling_pin=擀面杖
@@ -75,5 +90,8 @@ farmerspizzeria.book.meat_feast_pizza.description=§r这款披萨需要的其他
 farmerspizzeria.book.pepperoni_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块和萨拉米香肠
 farmerspizzeria.book.cheese_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、绯红奶酪块和蓝纹奶酪
 farmerspizzeria.book.margarita_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、番茄和罗勒叶
+farmerspizzeria.book.abyssal_marinara_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、干海带、生鳕鱼片和生鲑鱼片
+farmerspizzeria.book.boscaiola_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、棕色蘑菇和火腿
 farmerspizzeria.book.funghi_pizza.description=§r这款披萨需要的其他配料为淡黄奶酪块、番茄、棕色蘑菇和罗勒叶
+farmerspizzeria.book.charcoal_pizza.description=§r这款披萨不需要其他配料，是披萨烤过头的结果
 farmerspizzeria.book.thanks.description=非常感谢§o§hdmn_alex§r创造出这个如此精妙的模组，同时也为能获得移植授权感到十分荣幸。

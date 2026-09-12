@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { system, BlockPermutation, ItemStack } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 import { ItemUtil } from "../lib/ItemUtil_old";
+
 const BITS = {
     SAUCE: 1,
     CHEESE: 2,
@@ -21,8 +22,12 @@ const BITS = {
     BASIL: 128,
     HAM: 256,
     SCARLET: 512,
-    DORBLU: 1024
+    DORBLU: 1024,
+    DRIED_KELP: 2048,
+    SALMON_SLICE: 4096,
+    COD_SLICE: 8192
 };
+
 const ITEM_TO_BIT = {
     "farmersdelight:tomato_sauce": BITS.SAUCE,
     "brewinandchewin:flaxen_cheese_wedge": BITS.CHEESE,
@@ -35,8 +40,12 @@ const ITEM_TO_BIT = {
     "farmerspizzeria:basil_leaves": BITS.BASIL,
     "farmersdelight:ham": BITS.HAM,
     "brewinandchewin:scarlet_cheese_wedge": BITS.SCARLET,
-    "farmerspizzeria:dorblu_cheese_wedge": BITS.DORBLU
+    "farmerspizzeria:dorblu_cheese_wedge": BITS.DORBLU,
+    "minecraft:dried_kelp": BITS.DRIED_KELP,
+    "farmersdelight:salmon_slice": BITS.SALMON_SLICE,
+    "farmersdelight:cod_slice": BITS.COD_SLICE
 };
+
 const BIT_MAP = {
     "farmerspizzeria:dough_tomato_sauce": BITS.SAUCE,
     "farmerspizzeria:dough_cheese": BITS.SAUCE | BITS.CHEESE,
@@ -52,8 +61,14 @@ const BIT_MAP = {
     "farmerspizzeria:raw_funghi_pizza": BITS.SAUCE | BITS.CHEESE | BITS.TOMATO | BITS.MUSHROOM | BITS.BASIL,
     "farmerspizzeria:raw_carbonara_pizza": BITS.SAUCE | BITS.CHEESE | BITS.BACON | BITS.EGG,
     "farmerspizzeria:raw_meat_feast_pizza": BITS.SAUCE | BITS.CHEESE | BITS.BACON | BITS.SALAMI | BITS.HAM,
-    "farmerspizzeria:raw_cheese_pizza": BITS.SAUCE | BITS.CHEESE | BITS.SCARLET | BITS.DORBLU
+    "farmerspizzeria:raw_cheese_pizza": BITS.SAUCE | BITS.CHEESE | BITS.SCARLET | BITS.DORBLU,
+    "farmerspizzeria:dough_dried_kelp": BITS.SAUCE | BITS.CHEESE | BITS.DRIED_KELP,
+    "farmerspizzeria:dough_dried_kelp_salmon": BITS.SAUCE | BITS.CHEESE | BITS.DRIED_KELP | BITS.SALMON_SLICE,
+    "farmerspizzeria:dough_dried_kelp_cod": BITS.SAUCE | BITS.CHEESE | BITS.DRIED_KELP | BITS.COD_SLICE,
+    "farmerspizzeria:raw_abyssal_marinara_pizza": BITS.SAUCE | BITS.CHEESE | BITS.DRIED_KELP | BITS.SALMON_SLICE | BITS.COD_SLICE,
+    "farmerspizzeria:raw_boscaiola_pizza": BITS.SAUCE | BITS.CHEESE | BITS.MUSHROOM | BITS.HAM
 };
+
 const REVERSE_MAP = {
     "farmerspizzeria:dough_cheese": { prev: "farmerspizzeria:dough_tomato_sauce", give: "brewinandchewin:flaxen_cheese_wedge" },
     "farmerspizzeria:dough_bacon": { prev: "farmerspizzeria:dough_cheese", give: "farmersdelight:bacon" },
@@ -68,9 +83,16 @@ const REVERSE_MAP = {
     "farmerspizzeria:raw_cheese_pizza": { prev: "farmerspizzeria:dough_two_cheeses", give: "farmerspizzeria:dorblu_cheese_wedge" },
     "farmerspizzeria:dough_bacon_pepperoni": { prev: "farmerspizzeria:dough_bacon", give: "farmerspizzeria:salami" },
     "farmerspizzeria:raw_carbonara_pizza": { prev: "farmerspizzeria:dough_bacon", give: "minecraft:egg" },
-    "farmerspizzeria:raw_meat_feast_pizza": { prev: "farmerspizzeria:dough_bacon_pepperoni", give: "farmersdelight:ham" }
+    "farmerspizzeria:raw_meat_feast_pizza": { prev: "farmerspizzeria:dough_bacon_pepperoni", give: "farmersdelight:ham" },
+    "farmerspizzeria:dough_dried_kelp": { prev: "farmerspizzeria:dough_cheese", give: "minecraft:dried_kelp" },
+    "farmerspizzeria:dough_dried_kelp_salmon": { prev: "farmerspizzeria:dough_dried_kelp", give: "farmersdelight:salmon_slice" },
+    "farmerspizzeria:dough_dried_kelp_cod": { prev: "farmerspizzeria:dough_dried_kelp", give: "farmersdelight:cod_slice" },
+    "farmerspizzeria:raw_abyssal_marinara_pizza": { prev: "farmerspizzeria:dough_dried_kelp_salmon", give: "farmersdelight:cod_slice" },
+    "farmerspizzeria:raw_boscaiola_pizza": { prev: "farmerspizzeria:dough_mushrooms", give: "farmersdelight:ham" }
 };
+
 const TARGET_BIT_TO_ID = Object.fromEntries(Object.entries(BIT_MAP).map(([id, bits]) => [bits, id]));
+
 export class Dough {
     constructor() {
         this.onPlayerInteract = this.onPlayerInteract.bind(this);
@@ -148,7 +170,6 @@ export class Dough {
     register(args) {
         args.blockComponentRegistry.registerCustomComponent('farmerspizzeria:dough', new Dough());
     }
-
 }
 __decorate([
     EventAPI.register(system.beforeEvents.startup),

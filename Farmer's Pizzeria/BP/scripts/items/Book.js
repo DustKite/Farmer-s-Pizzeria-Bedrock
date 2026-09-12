@@ -147,7 +147,10 @@ function PizzaForm(player) {
         .button({ "rawtext": [{ "text": "item.farmerspizzeria:pepperoni_pizza" }] }, "textures/items/farmerspizzeria/pepperoni_pizza")
         .button({ "rawtext": [{ "text": "item.farmerspizzeria:cheese_pizza" }] }, "textures/items/farmerspizzeria/cheese_pizza")
         .button({ "rawtext": [{ "text": "item.farmerspizzeria:margarita_pizza" }] }, "textures/items/farmerspizzeria/margarita_pizza")
+        .button({ "rawtext": [{ "text": "item.farmerspizzeria:abyssal_marinara_pizza" }] }, "textures/items/farmerspizzeria/abyssal_marinara_pizza")
+        .button({ "rawtext": [{ "text": "item.farmerspizzeria:boscaiola_pizza" }] }, "textures/items/farmerspizzeria/boscaiola_pizza")
         .button({ "rawtext": [{ "text": "farmerspizzeria.book.funghi_pizza" }] }, "textures/book/brewinandchewin/pizza")
+        .button({ "rawtext": [{ "text": "item.farmerspizzeria:charcoal_pizza" }] }, "textures/items/farmerspizzeria/charcoal_pizza")
         .button({ "rawtext": [{ "text": "farmerspizzeria.book.back" }] }, BACK_BUTTON_ICON);
 
     form.show(player).then((response) => {
@@ -171,9 +174,18 @@ function PizzaForm(player) {
                 MargaritaPizzaForm(player);
                 break;
             case 6:
-                FunghiPizzaForm(player);
+                AbyssalMarinaraPizzaForm(player);
                 break;
             case 7:
+                BoscaiolaPizzaForm(player);
+                break;
+            case 8:
+                FunghiPizzaForm(player);
+                break;
+            case 9:
+                CharcoalPizzaForm(player);
+                break;
+            case 10:
                 mainForm(player);
                 break;
         }
@@ -282,12 +294,63 @@ function MargaritaPizzaForm(player) {
     });
 }
 
+function AbyssalMarinaraPizzaForm(player) {
+    const form = new ActionFormData()
+        .title({ "rawtext": [{ "text": "item.farmerspizzeria:abyssal_marinara_pizza" }] })
+        .body({
+            "rawtext": [
+                { "translate": "farmerspizzeria.book.abyssal_marinara_pizza.description" }
+            ]
+        })
+        .button({ "rawtext": [{ "text": "farmerspizzeria.book.back" }] }, BACK_BUTTON_ICON);
+
+    form.show(player).then((response) => {
+        if (response.selection === 0) {
+            PizzaForm(player);
+        }
+    });
+}
+
+function BoscaiolaPizzaForm(player) {
+    const form = new ActionFormData()
+        .title({ "rawtext": [{ "text": "item.farmerspizzeria:boscaiola_pizza" }] })
+        .body({
+            "rawtext": [
+                { "translate": "farmerspizzeria.book.boscaiola_pizza.description" }
+            ]
+        })
+        .button({ "rawtext": [{ "text": "farmerspizzeria.book.back" }] }, BACK_BUTTON_ICON);
+
+    form.show(player).then((response) => {
+        if (response.selection === 0) {
+            PizzaForm(player);
+        }
+    });
+}
+
 function FunghiPizzaForm(player) {
     const form = new ActionFormData()
         .title({ "rawtext": [{ "text": "farmerspizzeria.book.funghi_pizza" }] })
         .body({
             "rawtext": [
                 { "translate": "farmerspizzeria.book.funghi_pizza.description" }
+            ]
+        })
+        .button({ "rawtext": [{ "text": "farmerspizzeria.book.back" }] }, BACK_BUTTON_ICON);
+
+    form.show(player).then((response) => {
+        if (response.selection === 0) {
+            PizzaForm(player);
+        }
+    });
+}
+
+function CharcoalPizzaForm(player) {
+    const form = new ActionFormData()
+        .title({ "rawtext": [{ "text": "item.farmerspizzeria:charcoal_pizza" }] })
+        .body({
+            "rawtext": [
+                { "translate": "farmerspizzeria.book.charcoal_pizza.description" }
             ]
         })
         .button({ "rawtext": [{ "text": "farmerspizzeria.book.back" }] }, BACK_BUTTON_ICON);

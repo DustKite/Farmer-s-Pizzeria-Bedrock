@@ -10,6 +10,8 @@ item.brewinandchewin.scarlet_cheese_wedge=Scarlet Cheese Wedge
 item.farmerspizzeria.dorblu_cheese_wedge=Dorblu Cheese Wedge
 item.farmersdelight.bacon=Bacon
 item.farmersdelight.ham=Ham
+item.farmersdelight.cod_slice=Raw Cod Slice
+item.farmersdelight.salmon_slice=Raw Salmon Slice
 item.farmerspizzeria.salami=Salami
 item.farmerspizzeria.basil_leaves=Basil Leaves
 item.farmerspizzeria.raw_carbonara_pizza=Raw Carbonara Pizza
@@ -18,6 +20,8 @@ item.farmerspizzeria.raw_pepperoni_pizza=Raw Pepperoni Pizza
 item.farmerspizzeria.raw_cheese_pizza=Raw Cheese Pizza
 item.farmerspizzeria.raw_margarita_pizza=Raw Margherita Pizza
 item.farmerspizzeria.raw_funghi_pizza=Raw Funghi Pizza
+item.farmerspizzeria.raw_abyssal_marinara_pizza=Raw Abyssal Marinara Pizza
+item.farmerspizzeria.raw_boscaiola_pizza=Raw Boscaiola Pizza
 
 item.farmerspizzeria:book_farmerspizzeria=The Book of Farmer's Pizzeria
 
@@ -50,6 +54,17 @@ item.farmerspizzeria:raw_margarita_pizza=Raw Margherita Pizza
 item.farmerspizzeria:margarita_pizza=Margherita Pizza
 item.farmerspizzeria:margarita_pizza_slice=Margherita Pizza Slice
 
+item.farmerspizzeria:raw_abyssal_marinara_pizza=Raw Abyssal Marinara Pizza
+item.farmerspizzeria:abyssal_marinara_pizza=Abyssal Marinara Pizza
+item.farmerspizzeria:abyssal_marinara_pizza_slice=Abyssal Marinara Pizza Slice
+
+item.farmerspizzeria:raw_boscaiola_pizza=Raw Boscaiola Pizza
+item.farmerspizzeria:boscaiola_pizza=Boscaiola Pizza
+item.farmerspizzeria:boscaiola_pizza_slice=Boscaiola Pizza Slice
+
+item.farmerspizzeria:charcoal_pizza=Charcoal Pizza
+item.farmerspizzeria:charcoal_pizza_slice=Charcoal Pizza Slice
+
 item.farmerspizzeria:raw_funghi_pizza=Raw Funghi Pizza
 item.farmerspizzeria:salami=Salami
 item.farmerspizzeria:rolling_pin=Rolling Pin
@@ -75,5 +90,8 @@ farmerspizzeria.book.meat_feast_pizza.description=§rOther required toppings for
 farmerspizzeria.book.pepperoni_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge and Salami
 farmerspizzeria.book.cheese_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Scarlet Cheese Wedge, and Dorblu Cheese
 farmerspizzeria.book.margarita_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Tomato, and Basil Leaves
+farmerspizzeria.book.abyssal_marinara_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Dried Kelp, Raw Cod Slice, and Raw Salmon Slice
+farmerspizzeria.book.boscaiola_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Brown Mushroom, and Ham
 farmerspizzeria.book.funghi_pizza.description=§rOther required toppings for this pizza are Flaxen Cheese Wedge, Tomato, Brown Mushroom, and Basil Leaves
+farmerspizzeria.book.charcoal_pizza.description=§rThis pizza requires no additional toppings and is the result of overcooking a regular pizza.
 farmerspizzeria.book.thanks.description=Special thanks to §o§hdmn_alex§r for creating this wonderful mod, and it is a great honor to receive permission to port it.

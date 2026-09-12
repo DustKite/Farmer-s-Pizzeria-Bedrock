@@ -1,0 +1,13 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "farmerspizzeria:charcoal_pizza"
+        },
+        "tags": [
+            "smoker"
+        ],
+        "input": "brewinandchewin:pizza",
+        "output": "farmerspizzeria:charcoal_pizza"
+    }
+}

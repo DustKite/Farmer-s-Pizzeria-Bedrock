@@ -21,12 +21,17 @@
                      "farmerspizzeria:dough_two_cheeses_2",
                      "farmerspizzeria:dough_bacon",
                      "farmerspizzeria:dough_bacon_pepperoni",
+                     "farmerspizzeria:dough_dried_kelp",
+                     "farmerspizzeria:dough_dried_kelp_cod",
+                     "farmerspizzeria:dough_dried_kelp_salmon",
                      "farmerspizzeria:raw_margarita_pizza",
                      "farmerspizzeria:raw_cheese_pizza",
                      "farmerspizzeria:raw_funghi_pizza",
                      "farmerspizzeria:raw_carbonara_pizza",
                      "farmerspizzeria:raw_meat_feast_pizza",
-                     "farmerspizzeria:raw_pepperoni_pizza"
+                     "farmerspizzeria:raw_pepperoni_pizza",
+                     "farmerspizzeria:raw_abyssal_marinara_pizza",
+                     "farmerspizzeria:raw_boscaiola_pizza"
                   ]
                }
             ]

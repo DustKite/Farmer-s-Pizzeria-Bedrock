@@ -106,6 +106,21 @@
         "*": {
           "texture": "farmerspizzeria:raw_cheese_pizza"
         }
+      },
+      "tag:farmerspizzeria:dough": {},
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              {
+                "tags": "!q.any_tag('minecraft:crop', 'farmerspizzeria:dough', 'farmerspizzeria:pizza', 'plant', 'farmersdelight:wild_crop','crop') && (!q.all_tags('fertilize_area') || q.any_tag('grass') || q.any_tag('dirt') || q.any_tag('minecraft:is_pickaxe_item_destructible'))"
+              }
+            ]
+          }
+        ]
       }
     }
   }
