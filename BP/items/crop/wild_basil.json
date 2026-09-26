@@ -6,6 +6,22 @@
                 "block": "farmerspizzeria:wild_basil",
                 "replace_block_item": true
             },
+            "farmersdelight:cuttable": {
+                "loot": [
+                    [
+                        "farmerspizzeria:basil_leaves",
+                        5
+                    ],
+                    [
+                        "farmerspizzeria:basil_seeds",
+                        3
+                    ]
+                ],
+                "tool": {
+                    "type": "tag",
+                    "name": "farmersdelight:is_knife"
+                }
+            },
             "minecraft:icon": {
                 "textures": {
                     "default": "farmerspizzeria:wild_basil"
