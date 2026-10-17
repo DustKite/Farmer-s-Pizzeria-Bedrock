@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { ActionFormData } from '@minecraft/server-ui';
 import { ItemUseAfterEvent, world } from "@minecraft/server";
 import { EventAPI } from '../lib/EventAPI';
-import { kegRecipes } from '../datas/KegRcipes';
+import { kegRecipes } from '../datas/KegRecipes';
 
 const BACK_BUTTON_ICON = "textures/ui/recap_glyph_color_2x";
 

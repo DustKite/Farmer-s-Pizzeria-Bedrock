@@ -7,5 +7,6 @@ export const CuttingBoardRecipes = [
     { ingredients: { item: "farmerspizzeria:abyssal_marinara_pizza" }, result: [{ item: "farmerspizzeria:abyssal_marinara_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
     { ingredients: { item: "farmerspizzeria:boscaiola_pizza" }, result: [{ item: "farmerspizzeria:boscaiola_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
     { ingredients: { item: "farmerspizzeria:charcoal_pizza" }, result: [{ item: "farmerspizzeria:charcoal_pizza_slice", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" },
-    { ingredients: { item: "farmerspizzeria:dorblu_cheese_wheel" }, result: [{ item: "farmerspizzeria:dorblu_cheese_wedge", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.mob.slime.big" }
+    { ingredients: { item: "farmerspizzeria:dorblu_cheese_wheel" }, result: [{ item: "farmerspizzeria:dorblu_cheese_wedge", count: 4 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.wood" },
+    { ingredients: { item: "farmerspizzeria:wild_basil" }, result: [{ item: "farmerspizzeria:basil_leaves", count: 5 }, { item: "farmerspizzeria:basil_seeds", count: 3 }], tool: { tag: "farmersdelight:is_knife" }, is_block_type: false, sound: "use.wood" }
 ];

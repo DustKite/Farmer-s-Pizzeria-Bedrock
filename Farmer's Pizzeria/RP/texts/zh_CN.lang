@@ -69,6 +69,10 @@ item.farmerspizzeria:raw_funghi_pizza=蘑菇披萨胚
 item.farmerspizzeria:salami=萨拉米香肠
 item.farmerspizzeria:rolling_pin=擀面杖
 
+tile.brewinandchewin:pizza.name=蘑菇披萨
+item.brewinandchewin:pizza=蘑菇披萨
+item.brewinandchewin:pizza_slice=蘑菇披萨切片
+
 farmerspizzeria.blockfood.is_knife=你需要一个刀来切它！
 
 farmerspizzeria:itemGroup.name.dough=农夫乐事：披萨坊-面团

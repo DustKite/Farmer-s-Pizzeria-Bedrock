@@ -69,6 +69,10 @@ item.farmerspizzeria:raw_funghi_pizza=Raw Funghi Pizza
 item.farmerspizzeria:salami=Salami
 item.farmerspizzeria:rolling_pin=Rolling Pin
 
+tile.brewinandchewin:pizza.name=Funghi Pizza
+item.brewinandchewin:pizza=Funghi Pizza
+item.brewinandchewin:pizza_slice=Funghi Pizza Slice
+
 farmerspizzeria.blockfood.is_knife=You need a knife to cut it!
 
 farmerspizzeria:itemGroup.name.dough=Farmer's Pizzeria-Dough

@@ -10,9 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 import { CuttingBoardRecipes } from "../datas/CuttingRecipes";
+import { kegRecipes } from "../datas/KegRecipes";
 export class RecipeRegister {
     register(args) {
         system.runTimeout(() => {
+            for (let i = 0; i < kegRecipes.length; i++) {
+                const recipe = JSON.stringify(kegRecipes[i]);
+                world.getDimension("overworld").runCommand(`scriptevent brewinandchewin:keg_recipe ${recipe}`);
+            }
             for (let i = 0; i < CuttingBoardRecipes.length; i++) {
                 world.getDimension("overworld").runCommand(`scriptevent farmersdelight:cutting_board_recipe ${JSON.stringify(CuttingBoardRecipes[i])}`);
             }
